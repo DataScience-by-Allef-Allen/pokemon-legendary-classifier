@@ -1,0 +1,1026 @@
+name,types,weaknesses,evolutions,generation,is_legendary,is_mythical,hp,attack,defense,speed,special_attack,special_defense
+bulbasaur,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['bulbasaur', 'ivysaur', 'venusaur']",1,False,False,45,49,49,45,65,65
+ivysaur,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['bulbasaur', 'ivysaur', 'venusaur']",1,False,False,60,62,63,60,80,80
+venusaur,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['bulbasaur', 'ivysaur', 'venusaur']",1,False,False,80,82,83,80,100,100
+charmander,['fire'],"['water', 'rock', 'ground']","['charmander', 'charmeleon', 'charizard']",1,False,False,39,52,43,65,60,50
+charmeleon,['fire'],"['water', 'rock', 'ground']","['charmander', 'charmeleon', 'charizard']",1,False,False,58,64,58,80,80,65
+charizard,"['fire', 'flying']","['electric', 'ice', 'water', 'ground', 'rock']","['charmander', 'charmeleon', 'charizard']",1,False,False,78,84,78,100,109,85
+squirtle,['water'],"['electric', 'grass']","['squirtle', 'wartortle', 'blastoise']",1,False,False,44,48,65,43,50,64
+wartortle,['water'],"['electric', 'grass']","['squirtle', 'wartortle', 'blastoise']",1,False,False,59,63,80,58,65,80
+blastoise,['water'],"['electric', 'grass']","['squirtle', 'wartortle', 'blastoise']",1,False,False,79,83,100,78,85,105
+caterpie,['bug'],"['fire', 'rock', 'flying']","['caterpie', 'metapod', 'butterfree']",1,False,False,45,30,35,45,20,20
+metapod,['bug'],"['fire', 'rock', 'flying']","['caterpie', 'metapod', 'butterfree']",1,False,False,50,20,55,30,25,25
+butterfree,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['caterpie', 'metapod', 'butterfree']",1,False,False,60,45,50,70,90,80
+weedle,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['weedle', 'kakuna', 'beedrill']",1,False,False,40,35,30,50,20,20
+kakuna,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['weedle', 'kakuna', 'beedrill']",1,False,False,45,25,50,35,25,25
+beedrill,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['weedle', 'kakuna', 'beedrill']",1,False,False,65,90,40,75,45,80
+pidgey,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pidgey', 'pidgeotto', 'pidgeot']",1,False,False,40,45,40,56,35,35
+pidgeotto,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pidgey', 'pidgeotto', 'pidgeot']",1,False,False,63,60,55,71,50,50
+pidgeot,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pidgey', 'pidgeotto', 'pidgeot']",1,False,False,83,80,75,101,70,70
+rattata,['normal'],['fighting'],"['rattata', 'raticate']",1,False,False,30,56,35,72,25,35
+raticate,['normal'],['fighting'],"['rattata', 'raticate']",1,False,False,55,81,60,97,50,70
+spearow,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['spearow', 'fearow']",1,False,False,40,60,30,70,31,31
+fearow,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['spearow', 'fearow']",1,False,False,65,90,65,100,61,61
+ekans,['poison'],"['psychic', 'ground']","['ekans', 'arbok']",1,False,False,35,60,44,55,40,54
+arbok,['poison'],"['psychic', 'ground']","['ekans', 'arbok']",1,False,False,60,95,69,80,65,79
+pikachu,['electric'],['ground'],"['pichu', 'pikachu', 'raichu']",1,False,False,35,55,40,90,50,50
+raichu,['electric'],['ground'],"['pichu', 'pikachu', 'raichu']",1,False,False,60,90,55,110,90,80
+sandshrew,['ground'],"['ice', 'water', 'grass']","['sandshrew', 'sandslash']",1,False,False,50,75,85,40,20,30
+sandslash,['ground'],"['ice', 'water', 'grass']","['sandshrew', 'sandslash']",1,False,False,75,100,110,65,45,55
+nidoran-f,['poison'],"['psychic', 'ground']","['nidoran-f', 'nidorina', 'nidoqueen']",1,False,False,55,47,52,41,40,40
+nidorina,['poison'],"['psychic', 'ground']","['nidoran-f', 'nidorina', 'nidoqueen']",1,False,False,70,62,67,56,55,55
+nidoqueen,"['poison', 'ground']","['psychic', 'ice', 'water', 'ground', 'grass']","['nidoran-f', 'nidorina', 'nidoqueen']",1,False,False,90,92,87,76,75,85
+nidoran-m,['poison'],"['psychic', 'ground']","['nidoran-m', 'nidorino', 'nidoking']",1,False,False,46,57,40,50,40,40
+nidorino,['poison'],"['psychic', 'ground']","['nidoran-m', 'nidorino', 'nidoking']",1,False,False,61,72,57,65,55,55
+nidoking,"['poison', 'ground']","['psychic', 'ice', 'water', 'ground', 'grass']","['nidoran-m', 'nidorino', 'nidoking']",1,False,False,81,102,77,85,85,75
+clefairy,['fairy'],"['poison', 'steel']","['cleffa', 'clefairy', 'clefable']",1,False,False,70,45,48,35,60,65
+clefable,['fairy'],"['poison', 'steel']","['cleffa', 'clefairy', 'clefable']",1,False,False,95,70,73,60,95,90
+vulpix,['fire'],"['water', 'rock', 'ground']","['vulpix', 'ninetales']",1,False,False,38,41,40,65,50,65
+ninetales,['fire'],"['water', 'rock', 'ground']","['vulpix', 'ninetales']",1,False,False,73,76,75,100,81,100
+jigglypuff,"['normal', 'fairy']","['poison', 'fighting', 'steel']","['igglybuff', 'jigglypuff', 'wigglytuff']",1,False,False,115,45,20,20,45,25
+wigglytuff,"['normal', 'fairy']","['poison', 'fighting', 'steel']","['igglybuff', 'jigglypuff', 'wigglytuff']",1,False,False,140,70,45,45,85,50
+zubat,"['poison', 'flying']","['psychic', 'electric', 'ice', 'ground', 'rock']","['zubat', 'golbat', 'crobat']",1,False,False,40,45,35,55,30,40
+golbat,"['poison', 'flying']","['psychic', 'electric', 'ice', 'ground', 'rock']","['zubat', 'golbat', 'crobat']",1,False,False,75,80,70,90,65,75
+oddish,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['oddish', 'gloom', 'vileplume']",1,False,False,45,50,55,30,75,65
+gloom,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['oddish', 'gloom', 'vileplume']",1,False,False,60,65,70,40,85,75
+vileplume,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['oddish', 'gloom', 'vileplume']",1,False,False,75,80,85,50,110,90
+paras,"['bug', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'rock']","['paras', 'parasect']",1,False,False,35,70,55,25,45,55
+parasect,"['bug', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'rock']","['paras', 'parasect']",1,False,False,60,95,80,30,60,80
+venonat,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['venonat', 'venomoth']",1,False,False,60,55,50,45,40,55
+venomoth,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['venonat', 'venomoth']",1,False,False,70,65,60,90,90,75
+diglett,['ground'],"['ice', 'water', 'grass']","['diglett', 'dugtrio']",1,False,False,10,55,25,95,35,45
+dugtrio,['ground'],"['ice', 'water', 'grass']","['diglett', 'dugtrio']",1,False,False,35,100,50,120,50,70
+meowth,['normal'],['fighting'],"['meowth', 'persian']",1,False,False,40,45,35,90,40,40
+persian,['normal'],['fighting'],"['meowth', 'persian']",1,False,False,65,70,60,115,65,65
+psyduck,['water'],"['electric', 'grass']","['psyduck', 'golduck']",1,False,False,50,52,48,55,65,50
+golduck,['water'],"['electric', 'grass']","['psyduck', 'golduck']",1,False,False,80,82,78,85,95,80
+mankey,['fighting'],"['fairy', 'psychic', 'flying']","['mankey', 'primeape', 'annihilape']",1,False,False,40,80,35,70,35,45
+primeape,['fighting'],"['fairy', 'psychic', 'flying']","['mankey', 'primeape', 'annihilape']",1,False,False,65,105,60,95,60,70
+growlithe,['fire'],"['water', 'rock', 'ground']","['growlithe', 'arcanine']",1,False,False,55,70,45,60,70,50
+arcanine,['fire'],"['water', 'rock', 'ground']","['growlithe', 'arcanine']",1,False,False,90,110,80,95,100,80
+poliwag,['water'],"['electric', 'grass']","['poliwag', 'poliwhirl', 'poliwrath']",1,False,False,40,50,40,90,40,40
+poliwhirl,['water'],"['electric', 'grass']","['poliwag', 'poliwhirl', 'poliwrath']",1,False,False,65,65,65,90,50,50
+poliwrath,"['water', 'fighting']","['psychic', 'electric', 'flying', 'grass', 'fairy']","['poliwag', 'poliwhirl', 'poliwrath']",1,False,False,90,95,95,70,70,90
+abra,['psychic'],"['dark', 'ghost', 'bug']","['abra', 'kadabra', 'alakazam']",1,False,False,25,20,15,90,105,55
+kadabra,['psychic'],"['dark', 'ghost', 'bug']","['abra', 'kadabra', 'alakazam']",1,False,False,40,35,30,105,120,70
+alakazam,['psychic'],"['dark', 'ghost', 'bug']","['abra', 'kadabra', 'alakazam']",1,False,False,55,50,45,120,135,95
+machop,['fighting'],"['fairy', 'psychic', 'flying']","['machop', 'machoke', 'machamp']",1,False,False,70,80,50,35,35,35
+machoke,['fighting'],"['fairy', 'psychic', 'flying']","['machop', 'machoke', 'machamp']",1,False,False,80,100,70,45,50,60
+machamp,['fighting'],"['fairy', 'psychic', 'flying']","['machop', 'machoke', 'machamp']",1,False,False,90,130,80,55,65,85
+bellsprout,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['bellsprout', 'weepinbell', 'victreebel']",1,False,False,50,75,35,40,70,30
+weepinbell,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['bellsprout', 'weepinbell', 'victreebel']",1,False,False,65,90,50,55,85,45
+victreebel,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['bellsprout', 'weepinbell', 'victreebel']",1,False,False,80,105,65,70,100,70
+tentacool,"['water', 'poison']","['psychic', 'electric', 'grass', 'ground']","['tentacool', 'tentacruel']",1,False,False,40,40,35,70,50,100
+tentacruel,"['water', 'poison']","['psychic', 'electric', 'grass', 'ground']","['tentacool', 'tentacruel']",1,False,False,80,70,65,100,80,120
+geodude,"['rock', 'ground']","['ice', 'water', 'ground', 'steel', 'grass', 'fighting']","['geodude', 'graveler', 'golem']",1,False,False,40,80,100,20,30,30
+graveler,"['rock', 'ground']","['ice', 'water', 'ground', 'steel', 'grass', 'fighting']","['geodude', 'graveler', 'golem']",1,False,False,55,95,115,35,45,45
+golem,"['rock', 'ground']","['ice', 'water', 'ground', 'steel', 'grass', 'fighting']","['geodude', 'graveler', 'golem']",1,False,False,80,120,130,45,55,65
+ponyta,['fire'],"['water', 'rock', 'ground']","['ponyta', 'rapidash']",1,False,False,50,85,55,90,65,65
+rapidash,['fire'],"['water', 'rock', 'ground']","['ponyta', 'rapidash']",1,False,False,65,100,70,105,80,80
+slowpoke,"['water', 'psychic']","['electric', 'dark', 'ghost', 'grass', 'bug']","['slowpoke', 'slowbro']",1,False,False,90,65,65,15,40,40
+slowbro,"['water', 'psychic']","['electric', 'dark', 'ghost', 'grass', 'bug']","['slowpoke', 'slowbro']",1,False,False,95,75,110,30,100,80
+magnemite,"['electric', 'steel']","['fire', 'fighting', 'ground']","['magnemite', 'magneton', 'magnezone']",1,False,False,25,35,70,45,95,55
+magneton,"['electric', 'steel']","['fire', 'fighting', 'ground']","['magnemite', 'magneton', 'magnezone']",1,False,False,50,60,95,70,120,70
+farfetchd,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['farfetchd', 'sirfetchd']",1,False,False,52,90,55,60,58,62
+doduo,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['doduo', 'dodrio']",1,False,False,35,85,45,75,35,35
+dodrio,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['doduo', 'dodrio']",1,False,False,60,110,70,110,60,60
+seel,['water'],"['electric', 'grass']","['seel', 'dewgong']",1,False,False,65,45,55,45,45,70
+dewgong,"['water', 'ice']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']","['seel', 'dewgong']",1,False,False,90,70,80,70,70,95
+grimer,['poison'],"['psychic', 'ground']","['grimer', 'muk']",1,False,False,80,80,50,25,40,50
+muk,['poison'],"['psychic', 'ground']","['grimer', 'muk']",1,False,False,105,105,75,50,65,100
+shellder,['water'],"['electric', 'grass']","['shellder', 'cloyster']",1,False,False,30,65,100,40,45,25
+cloyster,"['water', 'ice']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']","['shellder', 'cloyster']",1,False,False,50,95,180,70,85,45
+gastly,"['ghost', 'poison']","['psychic', 'dark', 'ground', 'ghost']","['gastly', 'haunter', 'gengar']",1,False,False,30,35,30,80,100,35
+haunter,"['ghost', 'poison']","['psychic', 'dark', 'ground', 'ghost']","['gastly', 'haunter', 'gengar']",1,False,False,45,50,45,95,115,55
+gengar,"['ghost', 'poison']","['psychic', 'dark', 'ground', 'ghost']","['gastly', 'haunter', 'gengar']",1,False,False,60,65,60,110,130,75
+onix,"['rock', 'ground']","['ice', 'water', 'ground', 'steel', 'grass', 'fighting']","['onix', 'steelix']",1,False,False,35,45,160,70,30,45
+drowzee,['psychic'],"['dark', 'ghost', 'bug']","['drowzee', 'hypno']",1,False,False,60,48,45,42,43,90
+hypno,['psychic'],"['dark', 'ghost', 'bug']","['drowzee', 'hypno']",1,False,False,85,73,70,67,73,115
+krabby,['water'],"['electric', 'grass']","['krabby', 'kingler']",1,False,False,30,105,90,50,25,25
+kingler,['water'],"['electric', 'grass']","['krabby', 'kingler']",1,False,False,55,130,115,75,50,50
+voltorb,['electric'],['ground'],"['voltorb', 'electrode']",1,False,False,40,30,50,100,55,55
+electrode,['electric'],['ground'],"['voltorb', 'electrode']",1,False,False,60,50,70,150,80,80
+exeggcute,"['grass', 'psychic']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['exeggcute', 'exeggutor']",1,False,False,60,40,80,40,60,45
+exeggutor,"['grass', 'psychic']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['exeggcute', 'exeggutor']",1,False,False,95,95,85,55,125,75
+cubone,['ground'],"['ice', 'water', 'grass']","['cubone', 'marowak']",1,False,False,50,50,95,35,40,50
+marowak,['ground'],"['ice', 'water', 'grass']","['cubone', 'marowak']",1,False,False,60,80,110,45,50,80
+hitmonlee,['fighting'],"['fairy', 'psychic', 'flying']","['tyrogue', 'hitmonlee']",1,False,False,50,120,53,87,35,110
+hitmonchan,['fighting'],"['fairy', 'psychic', 'flying']","['tyrogue', 'hitmonlee']",1,False,False,50,105,79,76,35,110
+lickitung,['normal'],['fighting'],"['lickitung', 'lickilicky']",1,False,False,90,55,75,30,60,75
+koffing,['poison'],"['psychic', 'ground']","['koffing', 'weezing']",1,False,False,40,65,95,35,60,45
+weezing,['poison'],"['psychic', 'ground']","['koffing', 'weezing']",1,False,False,65,90,120,60,85,70
+rhyhorn,"['ground', 'rock']","['ice', 'water', 'grass', 'ground', 'steel', 'fighting']","['rhyhorn', 'rhydon', 'rhyperior']",1,False,False,80,85,95,25,30,30
+rhydon,"['ground', 'rock']","['ice', 'water', 'grass', 'ground', 'steel', 'fighting']","['rhyhorn', 'rhydon', 'rhyperior']",1,False,False,105,130,120,40,45,45
+chansey,['normal'],['fighting'],"['happiny', 'chansey', 'blissey']",1,False,False,250,5,5,50,35,105
+tangela,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['tangela', 'tangrowth']",1,False,False,65,55,115,60,100,40
+kangaskhan,['normal'],['fighting'],['kangaskhan'],1,False,False,105,95,80,90,40,80
+horsea,['water'],"['electric', 'grass']","['horsea', 'seadra', 'kingdra']",1,False,False,30,40,70,60,70,25
+seadra,['water'],"['electric', 'grass']","['horsea', 'seadra', 'kingdra']",1,False,False,55,65,95,85,95,45
+goldeen,['water'],"['electric', 'grass']","['goldeen', 'seaking']",1,False,False,45,67,60,63,35,50
+seaking,['water'],"['electric', 'grass']","['goldeen', 'seaking']",1,False,False,80,92,65,68,65,80
+staryu,['water'],"['electric', 'grass']","['staryu', 'starmie']",1,False,False,30,45,55,85,70,55
+starmie,"['water', 'psychic']","['electric', 'dark', 'ghost', 'grass', 'bug']","['staryu', 'starmie']",1,False,False,60,75,85,115,100,85
+mr-mime,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']","['mime-jr', 'mr-mime', 'mr-rime']",1,False,False,40,45,65,90,100,120
+scyther,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['scyther', 'scizor']",1,False,False,70,110,80,105,55,80
+jynx,"['ice', 'psychic']","['fire', 'dark', 'ghost', 'steel', 'bug', 'rock', 'fighting']","['smoochum', 'jynx']",1,False,False,65,50,35,95,115,95
+electabuzz,['electric'],['ground'],"['elekid', 'electabuzz', 'electivire']",1,False,False,65,83,57,105,95,85
+magmar,['fire'],"['water', 'rock', 'ground']","['magby', 'magmar', 'magmortar']",1,False,False,65,95,57,93,100,85
+pinsir,['bug'],"['fire', 'rock', 'flying']",['pinsir'],1,False,False,65,125,100,85,55,70
+tauros,['normal'],['fighting'],['tauros'],1,False,False,75,100,95,110,40,70
+magikarp,['water'],"['electric', 'grass']","['magikarp', 'gyarados']",1,False,False,20,10,55,80,15,20
+gyarados,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['magikarp', 'gyarados']",1,False,False,95,125,79,81,60,100
+lapras,"['water', 'ice']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']",['lapras'],1,False,False,130,85,80,60,85,95
+ditto,['normal'],['fighting'],['ditto'],1,False,False,48,48,48,48,48,48
+eevee,['normal'],['fighting'],"['eevee', 'vaporeon']",1,False,False,55,55,50,55,45,65
+vaporeon,['water'],"['electric', 'grass']","['eevee', 'vaporeon']",1,False,False,130,65,60,65,110,95
+jolteon,['electric'],['ground'],"['eevee', 'vaporeon']",1,False,False,65,65,60,130,110,95
+flareon,['fire'],"['water', 'rock', 'ground']","['eevee', 'vaporeon']",1,False,False,65,130,60,65,95,110
+porygon,['normal'],['fighting'],"['porygon', 'porygon2', 'porygon-z']",1,False,False,65,60,70,40,85,75
+omanyte,"['rock', 'water']","['electric', 'water', 'ground', 'steel', 'grass', 'fighting']","['omanyte', 'omastar']",1,False,False,35,40,100,35,90,55
+omastar,"['rock', 'water']","['electric', 'water', 'ground', 'steel', 'grass', 'fighting']","['omanyte', 'omastar']",1,False,False,70,60,125,55,115,70
+kabuto,"['rock', 'water']","['electric', 'water', 'ground', 'steel', 'grass', 'fighting']","['kabuto', 'kabutops']",1,False,False,30,80,90,55,55,45
+kabutops,"['rock', 'water']","['electric', 'water', 'ground', 'steel', 'grass', 'fighting']","['kabuto', 'kabutops']",1,False,False,60,115,105,80,65,70
+aerodactyl,"['rock', 'flying']","['electric', 'ice', 'water', 'ground', 'steel', 'grass', 'rock', 'fighting']",['aerodactyl'],1,False,False,80,105,65,130,60,75
+snorlax,['normal'],['fighting'],"['munchlax', 'snorlax']",1,False,False,160,110,65,30,65,110
+articuno,"['ice', 'flying']","['fire', 'electric', 'ice', 'steel', 'rock', 'fighting']",['articuno'],1,True,False,90,85,100,85,95,125
+zapdos,"['electric', 'flying']","['ice', 'rock', 'electric', 'ground']",['zapdos'],1,True,False,90,90,85,100,125,90
+moltres,"['fire', 'flying']","['electric', 'ice', 'water', 'ground', 'rock']",['moltres'],1,True,False,90,100,90,90,125,85
+dratini,['dragon'],"['ice', 'fairy', 'dragon']","['dratini', 'dragonair', 'dragonite']",1,False,False,41,64,45,50,50,50
+dragonair,['dragon'],"['ice', 'fairy', 'dragon']","['dratini', 'dragonair', 'dragonite']",1,False,False,61,84,65,70,70,70
+dragonite,"['dragon', 'flying']","['dragon', 'electric', 'ice', 'fairy', 'rock']","['dratini', 'dragonair', 'dragonite']",1,False,False,91,134,95,80,100,100
+mewtwo,['psychic'],"['dark', 'ghost', 'bug']",['mewtwo'],1,True,False,106,110,90,130,154,90
+mew,['psychic'],"['dark', 'ghost', 'bug']",['mew'],1,False,True,100,100,100,100,100,100
+chikorita,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['chikorita', 'bayleef', 'meganium']",2,False,False,45,49,65,45,49,65
+bayleef,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['chikorita', 'bayleef', 'meganium']",2,False,False,60,62,80,60,63,80
+meganium,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['chikorita', 'bayleef', 'meganium']",2,False,False,80,82,100,80,83,100
+cyndaquil,['fire'],"['water', 'rock', 'ground']","['cyndaquil', 'quilava', 'typhlosion']",2,False,False,39,52,43,65,60,50
+quilava,['fire'],"['water', 'rock', 'ground']","['cyndaquil', 'quilava', 'typhlosion']",2,False,False,58,64,58,80,80,65
+typhlosion,['fire'],"['water', 'rock', 'ground']","['cyndaquil', 'quilava', 'typhlosion']",2,False,False,78,84,78,100,109,85
+totodile,['water'],"['electric', 'grass']","['totodile', 'croconaw', 'feraligatr']",2,False,False,50,65,64,43,44,48
+croconaw,['water'],"['electric', 'grass']","['totodile', 'croconaw', 'feraligatr']",2,False,False,65,80,80,58,59,63
+feraligatr,['water'],"['electric', 'grass']","['totodile', 'croconaw', 'feraligatr']",2,False,False,85,105,100,78,79,83
+sentret,['normal'],['fighting'],"['sentret', 'furret']",2,False,False,35,46,34,20,35,45
+furret,['normal'],['fighting'],"['sentret', 'furret']",2,False,False,85,76,64,90,45,55
+hoothoot,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['hoothoot', 'noctowl']",2,False,False,60,30,30,50,36,56
+noctowl,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['hoothoot', 'noctowl']",2,False,False,100,50,50,70,86,96
+ledyba,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['ledyba', 'ledian']",2,False,False,40,20,30,55,40,80
+ledian,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['ledyba', 'ledian']",2,False,False,55,35,50,85,55,110
+spinarak,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['spinarak', 'ariados']",2,False,False,40,60,40,30,40,40
+ariados,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['spinarak', 'ariados']",2,False,False,70,90,70,40,60,70
+crobat,"['poison', 'flying']","['psychic', 'electric', 'ice', 'ground', 'rock']","['zubat', 'golbat', 'crobat']",2,False,False,85,90,80,130,70,80
+chinchou,"['water', 'electric']","['electric', 'grass', 'ground']","['chinchou', 'lanturn']",2,False,False,75,38,38,67,56,56
+lanturn,"['water', 'electric']","['electric', 'grass', 'ground']","['chinchou', 'lanturn']",2,False,False,125,58,58,67,76,76
+pichu,['electric'],['ground'],"['pichu', 'pikachu', 'raichu']",2,False,False,20,40,15,60,35,35
+cleffa,['fairy'],"['poison', 'steel']","['cleffa', 'clefairy', 'clefable']",2,False,False,50,25,28,15,45,55
+igglybuff,"['normal', 'fairy']","['poison', 'fighting', 'steel']","['igglybuff', 'jigglypuff', 'wigglytuff']",2,False,False,90,30,15,15,40,20
+togepi,['fairy'],"['poison', 'steel']","['togepi', 'togetic', 'togekiss']",2,False,False,35,20,65,20,40,65
+togetic,"['fairy', 'flying']","['poison', 'electric', 'ice', 'steel', 'rock']","['togepi', 'togetic', 'togekiss']",2,False,False,55,40,85,40,80,105
+natu,"['psychic', 'flying']","['electric', 'dark', 'ice', 'ghost', 'bug', 'rock']","['natu', 'xatu']",2,False,False,40,50,45,70,70,45
+xatu,"['psychic', 'flying']","['electric', 'dark', 'ice', 'ghost', 'bug', 'rock']","['natu', 'xatu']",2,False,False,65,75,70,95,95,70
+mareep,['electric'],['ground'],"['mareep', 'flaaffy', 'ampharos']",2,False,False,55,40,40,35,65,45
+flaaffy,['electric'],['ground'],"['mareep', 'flaaffy', 'ampharos']",2,False,False,70,55,55,45,80,60
+ampharos,['electric'],['ground'],"['mareep', 'flaaffy', 'ampharos']",2,False,False,90,75,85,55,115,90
+bellossom,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['oddish', 'gloom', 'vileplume']",2,False,False,75,80,95,50,90,100
+marill,"['water', 'fairy']","['poison', 'electric', 'grass', 'steel']","['azurill', 'marill', 'azumarill']",2,False,False,70,20,50,40,20,50
+azumarill,"['water', 'fairy']","['poison', 'electric', 'grass', 'steel']","['azurill', 'marill', 'azumarill']",2,False,False,100,50,80,50,60,80
+sudowoodo,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['bonsly', 'sudowoodo']",2,False,False,70,100,115,30,30,65
+politoed,['water'],"['electric', 'grass']","['poliwag', 'poliwhirl', 'poliwrath']",2,False,False,90,75,75,70,90,100
+hoppip,"['grass', 'flying']","['fire', 'poison', 'electric', 'ice', 'flying', 'bug', 'rock']","['hoppip', 'skiploom', 'jumpluff']",2,False,False,35,35,40,50,35,55
+skiploom,"['grass', 'flying']","['fire', 'poison', 'electric', 'ice', 'flying', 'bug', 'rock']","['hoppip', 'skiploom', 'jumpluff']",2,False,False,55,45,50,80,45,65
+jumpluff,"['grass', 'flying']","['fire', 'poison', 'electric', 'ice', 'flying', 'bug', 'rock']","['hoppip', 'skiploom', 'jumpluff']",2,False,False,75,55,70,110,55,95
+aipom,['normal'],['fighting'],"['aipom', 'ambipom']",2,False,False,55,70,55,85,40,55
+sunkern,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['sunkern', 'sunflora']",2,False,False,30,30,30,30,30,30
+sunflora,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['sunkern', 'sunflora']",2,False,False,75,75,55,30,105,85
+yanma,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['yanma', 'yanmega']",2,False,False,65,65,45,95,75,45
+wooper,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['wooper', 'quagsire']",2,False,False,55,45,45,15,25,25
+quagsire,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['wooper', 'quagsire']",2,False,False,95,85,85,35,65,65
+espeon,['psychic'],"['dark', 'ghost', 'bug']","['eevee', 'vaporeon']",2,False,False,65,65,60,110,130,95
+umbreon,['dark'],"['fairy', 'fighting', 'bug']","['eevee', 'vaporeon']",2,False,False,95,65,110,65,60,130
+murkrow,"['dark', 'flying']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']","['murkrow', 'honchkrow']",2,False,False,60,85,42,91,85,42
+slowking,"['water', 'psychic']","['electric', 'dark', 'ghost', 'grass', 'bug']","['slowpoke', 'slowbro']",2,False,False,95,75,80,30,100,110
+misdreavus,['ghost'],"['dark', 'ghost']","['misdreavus', 'mismagius']",2,False,False,60,60,60,85,85,85
+unown,['psychic'],"['dark', 'ghost', 'bug']",['unown'],2,False,False,48,72,48,48,72,48
+wobbuffet,['psychic'],"['dark', 'ghost', 'bug']","['wynaut', 'wobbuffet']",2,False,False,190,33,58,33,33,58
+girafarig,"['normal', 'psychic']","['dark', 'fighting', 'ghost', 'bug']","['girafarig', 'farigiraf']",2,False,False,70,80,65,85,90,65
+pineco,['bug'],"['fire', 'rock', 'flying']","['pineco', 'forretress']",2,False,False,50,65,90,15,35,35
+forretress,"['bug', 'steel']","['fire', 'flying', 'ground', 'rock', 'fighting']","['pineco', 'forretress']",2,False,False,75,90,140,40,60,60
+dunsparce,['normal'],['fighting'],"['dunsparce', 'dudunsparce']",2,False,False,100,70,70,45,65,65
+gligar,"['ground', 'flying']","['electric', 'ice', 'water', 'grass', 'rock']","['gligar', 'gliscor']",2,False,False,65,75,105,85,35,65
+steelix,"['steel', 'ground']","['fire', 'ice', 'water', 'ground', 'grass', 'fighting']","['onix', 'steelix']",2,False,False,75,85,200,30,55,65
+snubbull,['fairy'],"['poison', 'steel']","['snubbull', 'granbull']",2,False,False,60,80,50,30,40,40
+granbull,['fairy'],"['poison', 'steel']","['snubbull', 'granbull']",2,False,False,90,120,75,45,60,60
+qwilfish,"['water', 'poison']","['psychic', 'electric', 'grass', 'ground']","['qwilfish', 'overqwil']",2,False,False,65,95,85,85,55,55
+scizor,"['bug', 'steel']","['fire', 'flying', 'ground', 'rock', 'fighting']","['scyther', 'scizor']",2,False,False,70,130,100,65,55,80
+shuckle,"['bug', 'rock']","['fire', 'water', 'flying', 'ground', 'steel', 'grass', 'rock', 'fighting']",['shuckle'],2,False,False,20,10,230,5,10,230
+heracross,"['bug', 'fighting']","['psychic', 'fire', 'flying', 'fairy', 'rock']",['heracross'],2,False,False,80,125,75,85,40,95
+sneasel,"['dark', 'ice']","['fire', 'steel', 'bug', 'fairy', 'rock', 'fighting']","['sneasel', 'weavile']",2,False,False,55,95,55,115,35,75
+teddiursa,['normal'],['fighting'],"['teddiursa', 'ursaring', 'ursaluna']",2,False,False,60,80,50,40,50,50
+ursaring,['normal'],['fighting'],"['teddiursa', 'ursaring', 'ursaluna']",2,False,False,90,130,75,55,75,75
+slugma,['fire'],"['water', 'rock', 'ground']","['slugma', 'magcargo']",2,False,False,40,40,40,20,70,40
+magcargo,"['fire', 'rock']","['water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['slugma', 'magcargo']",2,False,False,60,50,120,30,90,80
+swinub,"['ice', 'ground']","['fire', 'ice', 'water', 'grass', 'steel', 'rock', 'fighting']","['swinub', 'piloswine', 'mamoswine']",2,False,False,50,50,40,50,30,30
+piloswine,"['ice', 'ground']","['fire', 'ice', 'water', 'grass', 'steel', 'rock', 'fighting']","['swinub', 'piloswine', 'mamoswine']",2,False,False,100,100,80,50,60,60
+corsola,"['water', 'rock']","['electric', 'water', 'grass', 'steel', 'ground', 'fighting']","['corsola', 'cursola']",2,False,False,65,55,95,35,65,95
+remoraid,['water'],"['electric', 'grass']","['remoraid', 'octillery']",2,False,False,35,65,35,65,65,35
+octillery,['water'],"['electric', 'grass']","['remoraid', 'octillery']",2,False,False,75,105,75,45,105,75
+delibird,"['ice', 'flying']","['fire', 'electric', 'ice', 'steel', 'rock', 'fighting']",['delibird'],2,False,False,45,55,45,75,65,45
+mantine,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['mantyke', 'mantine']",2,False,False,85,40,70,70,80,140
+skarmory,"['steel', 'flying']","['fire', 'electric', 'ice', 'ground', 'rock', 'fighting']",['skarmory'],2,False,False,65,80,140,70,40,70
+houndour,"['dark', 'fire']","['water', 'ground', 'bug', 'fairy', 'rock', 'fighting']","['houndour', 'houndoom']",2,False,False,45,60,30,65,80,50
+houndoom,"['dark', 'fire']","['water', 'ground', 'bug', 'fairy', 'rock', 'fighting']","['houndour', 'houndoom']",2,False,False,75,90,50,95,110,80
+kingdra,"['water', 'dragon']","['dragon', 'electric', 'ice', 'grass', 'fairy']","['horsea', 'seadra', 'kingdra']",2,False,False,75,95,95,85,95,95
+phanpy,['ground'],"['ice', 'water', 'grass']","['phanpy', 'donphan']",2,False,False,90,60,60,40,40,40
+donphan,['ground'],"['ice', 'water', 'grass']","['phanpy', 'donphan']",2,False,False,90,120,120,50,60,60
+porygon2,['normal'],['fighting'],"['porygon', 'porygon2', 'porygon-z']",2,False,False,85,80,90,60,105,95
+stantler,['normal'],['fighting'],"['stantler', 'wyrdeer']",2,False,False,73,95,62,85,85,65
+smeargle,['normal'],['fighting'],['smeargle'],2,False,False,55,20,35,75,20,45
+tyrogue,['fighting'],"['fairy', 'psychic', 'flying']","['tyrogue', 'hitmonlee']",2,False,False,35,35,35,35,35,35
+hitmontop,['fighting'],"['fairy', 'psychic', 'flying']","['tyrogue', 'hitmonlee']",2,False,False,50,95,95,70,35,110
+smoochum,"['ice', 'psychic']","['fire', 'dark', 'ghost', 'steel', 'bug', 'rock', 'fighting']","['smoochum', 'jynx']",2,False,False,45,30,15,65,85,65
+elekid,['electric'],['ground'],"['elekid', 'electabuzz', 'electivire']",2,False,False,45,63,37,95,65,55
+magby,['fire'],"['water', 'rock', 'ground']","['magby', 'magmar', 'magmortar']",2,False,False,45,75,37,83,70,55
+miltank,['normal'],['fighting'],['miltank'],2,False,False,95,80,105,100,40,70
+blissey,['normal'],['fighting'],"['happiny', 'chansey', 'blissey']",2,False,False,255,10,10,55,75,135
+raikou,['electric'],['ground'],['raikou'],2,True,False,90,85,75,115,115,100
+entei,['fire'],"['water', 'rock', 'ground']",['entei'],2,True,False,115,115,85,100,90,75
+suicune,['water'],"['electric', 'grass']",['suicune'],2,True,False,100,75,115,85,90,115
+larvitar,"['rock', 'ground']","['ice', 'water', 'ground', 'steel', 'grass', 'fighting']","['larvitar', 'pupitar', 'tyranitar']",2,False,False,50,64,50,41,45,50
+pupitar,"['rock', 'ground']","['ice', 'water', 'ground', 'steel', 'grass', 'fighting']","['larvitar', 'pupitar', 'tyranitar']",2,False,False,70,84,70,51,65,70
+tyranitar,"['rock', 'dark']","['water', 'ground', 'steel', 'grass', 'bug', 'fairy', 'fighting']","['larvitar', 'pupitar', 'tyranitar']",2,False,False,100,134,110,61,95,100
+lugia,"['psychic', 'flying']","['electric', 'dark', 'ice', 'ghost', 'bug', 'rock']",['lugia'],2,True,False,106,90,130,110,90,154
+ho-oh,"['fire', 'flying']","['electric', 'ice', 'water', 'ground', 'rock']",['ho-oh'],2,True,False,106,130,90,90,110,154
+celebi,"['psychic', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']",['celebi'],2,False,True,100,100,100,100,100,100
+treecko,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['treecko', 'grovyle', 'sceptile']",3,False,False,40,45,35,70,65,55
+grovyle,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['treecko', 'grovyle', 'sceptile']",3,False,False,50,65,45,95,85,65
+sceptile,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['treecko', 'grovyle', 'sceptile']",3,False,False,70,85,65,120,105,85
+torchic,['fire'],"['water', 'rock', 'ground']","['torchic', 'combusken', 'blaziken']",3,False,False,45,60,40,45,70,50
+combusken,"['fire', 'fighting']","['psychic', 'water', 'flying', 'ground', 'fairy', 'rock']","['torchic', 'combusken', 'blaziken']",3,False,False,60,85,60,55,85,60
+blaziken,"['fire', 'fighting']","['psychic', 'water', 'flying', 'ground', 'fairy', 'rock']","['torchic', 'combusken', 'blaziken']",3,False,False,80,120,70,80,110,70
+mudkip,['water'],"['electric', 'grass']","['mudkip', 'marshtomp', 'swampert']",3,False,False,50,70,50,40,50,50
+marshtomp,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['mudkip', 'marshtomp', 'swampert']",3,False,False,70,85,70,50,60,70
+swampert,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['mudkip', 'marshtomp', 'swampert']",3,False,False,100,110,90,60,85,90
+poochyena,['dark'],"['fairy', 'fighting', 'bug']","['poochyena', 'mightyena']",3,False,False,35,55,35,35,30,30
+mightyena,['dark'],"['fairy', 'fighting', 'bug']","['poochyena', 'mightyena']",3,False,False,70,90,70,70,60,60
+zigzagoon,['normal'],['fighting'],"['zigzagoon', 'linoone', 'obstagoon']",3,False,False,38,30,41,60,30,41
+linoone,['normal'],['fighting'],"['zigzagoon', 'linoone', 'obstagoon']",3,False,False,78,70,61,100,50,61
+wurmple,['bug'],"['fire', 'rock', 'flying']","['wurmple', 'silcoon', 'beautifly']",3,False,False,45,45,35,20,20,30
+silcoon,['bug'],"['fire', 'rock', 'flying']","['wurmple', 'silcoon', 'beautifly']",3,False,False,50,35,55,15,25,25
+beautifly,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['wurmple', 'silcoon', 'beautifly']",3,False,False,60,70,50,65,100,50
+cascoon,['bug'],"['fire', 'rock', 'flying']","['wurmple', 'silcoon', 'beautifly']",3,False,False,50,35,55,15,25,25
+dustox,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['wurmple', 'silcoon', 'beautifly']",3,False,False,60,50,70,65,50,90
+lotad,"['water', 'grass']","['poison', 'fire', 'electric', 'ice', 'flying', 'grass', 'bug']","['lotad', 'lombre', 'ludicolo']",3,False,False,40,30,30,30,40,50
+lombre,"['water', 'grass']","['poison', 'fire', 'electric', 'ice', 'flying', 'grass', 'bug']","['lotad', 'lombre', 'ludicolo']",3,False,False,60,50,50,50,60,70
+ludicolo,"['water', 'grass']","['poison', 'fire', 'electric', 'ice', 'flying', 'grass', 'bug']","['lotad', 'lombre', 'ludicolo']",3,False,False,80,70,70,70,90,100
+seedot,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['seedot', 'nuzleaf', 'shiftry']",3,False,False,40,40,50,30,30,30
+nuzleaf,"['grass', 'dark']","['fire', 'poison', 'ice', 'flying', 'bug', 'fairy', 'fighting']","['seedot', 'nuzleaf', 'shiftry']",3,False,False,70,70,40,60,60,40
+shiftry,"['grass', 'dark']","['fire', 'poison', 'ice', 'flying', 'bug', 'fairy', 'fighting']","['seedot', 'nuzleaf', 'shiftry']",3,False,False,90,100,60,80,90,60
+taillow,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['taillow', 'swellow']",3,False,False,40,55,30,85,30,30
+swellow,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['taillow', 'swellow']",3,False,False,60,85,60,125,75,50
+wingull,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['wingull', 'pelipper']",3,False,False,40,30,30,85,55,30
+pelipper,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['wingull', 'pelipper']",3,False,False,60,50,100,65,95,70
+ralts,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']","['ralts', 'kirlia', 'gardevoir']",3,False,False,28,25,25,40,45,35
+kirlia,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']","['ralts', 'kirlia', 'gardevoir']",3,False,False,38,35,35,50,65,55
+gardevoir,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']","['ralts', 'kirlia', 'gardevoir']",3,False,False,68,65,65,80,125,115
+surskit,"['bug', 'water']","['fire', 'electric', 'flying', 'grass', 'rock']","['surskit', 'masquerain']",3,False,False,40,30,32,65,50,52
+masquerain,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['surskit', 'masquerain']",3,False,False,70,60,62,80,100,82
+shroomish,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['shroomish', 'breloom']",3,False,False,60,40,60,35,40,60
+breloom,"['grass', 'fighting']","['fire', 'poison', 'psychic', 'ice', 'flying', 'bug', 'fairy']","['shroomish', 'breloom']",3,False,False,60,130,80,70,60,60
+slakoth,['normal'],['fighting'],"['slakoth', 'vigoroth', 'slaking']",3,False,False,60,60,60,30,35,35
+vigoroth,['normal'],['fighting'],"['slakoth', 'vigoroth', 'slaking']",3,False,False,80,80,80,90,55,55
+slaking,['normal'],['fighting'],"['slakoth', 'vigoroth', 'slaking']",3,False,False,150,160,100,100,95,65
+nincada,"['bug', 'ground']","['fire', 'ice', 'water', 'flying', 'grass', 'rock']","['nincada', 'ninjask']",3,False,False,31,45,90,40,30,30
+ninjask,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['nincada', 'ninjask']",3,False,False,61,90,45,160,50,50
+shedinja,"['bug', 'ghost']","['fire', 'dark', 'flying', 'ghost', 'rock']","['nincada', 'ninjask']",3,False,False,1,90,45,40,30,30
+whismur,['normal'],['fighting'],"['whismur', 'loudred', 'exploud']",3,False,False,64,51,23,28,51,23
+loudred,['normal'],['fighting'],"['whismur', 'loudred', 'exploud']",3,False,False,84,71,43,48,71,43
+exploud,['normal'],['fighting'],"['whismur', 'loudred', 'exploud']",3,False,False,104,91,63,68,91,73
+makuhita,['fighting'],"['fairy', 'psychic', 'flying']","['makuhita', 'hariyama']",3,False,False,72,60,30,25,20,30
+hariyama,['fighting'],"['fairy', 'psychic', 'flying']","['makuhita', 'hariyama']",3,False,False,144,120,60,50,40,60
+azurill,"['normal', 'fairy']","['poison', 'fighting', 'steel']","['azurill', 'marill', 'azumarill']",3,False,False,50,20,40,20,20,40
+nosepass,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['nosepass', 'probopass']",3,False,False,30,45,135,30,45,90
+skitty,['normal'],['fighting'],"['skitty', 'delcatty']",3,False,False,50,45,45,50,35,35
+delcatty,['normal'],['fighting'],"['skitty', 'delcatty']",3,False,False,70,65,65,90,55,55
+sableye,"['dark', 'ghost']","['dark', 'ghost', 'bug', 'fairy', 'fighting']",['sableye'],3,False,False,50,75,75,50,65,65
+mawile,"['steel', 'fairy']","['poison', 'fire', 'ground', 'steel', 'fighting']",['mawile'],3,False,False,50,85,85,50,55,55
+aron,"['steel', 'rock']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']","['aron', 'lairon', 'aggron']",3,False,False,50,70,100,30,40,40
+lairon,"['steel', 'rock']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']","['aron', 'lairon', 'aggron']",3,False,False,60,90,140,40,50,50
+aggron,"['steel', 'rock']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']","['aron', 'lairon', 'aggron']",3,False,False,70,110,180,50,60,60
+meditite,"['fighting', 'psychic']","['psychic', 'dark', 'flying', 'ghost', 'bug', 'fairy']","['meditite', 'medicham']",3,False,False,30,40,55,60,40,55
+medicham,"['fighting', 'psychic']","['psychic', 'dark', 'flying', 'ghost', 'bug', 'fairy']","['meditite', 'medicham']",3,False,False,60,60,75,80,60,75
+electrike,['electric'],['ground'],"['electrike', 'manectric']",3,False,False,40,45,40,65,65,40
+manectric,['electric'],['ground'],"['electrike', 'manectric']",3,False,False,70,75,60,105,105,60
+plusle,['electric'],['ground'],['plusle'],3,False,False,60,50,40,95,85,75
+minun,['electric'],['ground'],['minun'],3,False,False,60,40,50,95,75,85
+volbeat,['bug'],"['fire', 'rock', 'flying']",['volbeat'],3,False,False,65,73,75,85,47,85
+illumise,['bug'],"['fire', 'rock', 'flying']",['illumise'],3,False,False,65,47,75,85,73,85
+roselia,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['budew', 'roselia', 'roserade']",3,False,False,50,60,45,65,100,80
+gulpin,['poison'],"['psychic', 'ground']","['gulpin', 'swalot']",3,False,False,70,43,53,40,43,53
+swalot,['poison'],"['psychic', 'ground']","['gulpin', 'swalot']",3,False,False,100,73,83,55,73,83
+carvanha,"['water', 'dark']","['electric', 'grass', 'bug', 'fairy', 'fighting']","['carvanha', 'sharpedo']",3,False,False,45,90,20,65,65,20
+sharpedo,"['water', 'dark']","['electric', 'grass', 'bug', 'fairy', 'fighting']","['carvanha', 'sharpedo']",3,False,False,70,120,40,95,95,40
+wailmer,['water'],"['electric', 'grass']","['wailmer', 'wailord']",3,False,False,130,70,35,60,70,35
+wailord,['water'],"['electric', 'grass']","['wailmer', 'wailord']",3,False,False,170,90,45,60,90,45
+numel,"['fire', 'ground']","['ice', 'water', 'ground', 'grass', 'rock']","['numel', 'camerupt']",3,False,False,60,60,40,35,65,45
+camerupt,"['fire', 'ground']","['ice', 'water', 'ground', 'grass', 'rock']","['numel', 'camerupt']",3,False,False,70,100,70,40,105,75
+torkoal,['fire'],"['water', 'rock', 'ground']",['torkoal'],3,False,False,70,85,140,20,85,70
+spoink,['psychic'],"['dark', 'ghost', 'bug']","['spoink', 'grumpig']",3,False,False,60,25,35,60,70,80
+grumpig,['psychic'],"['dark', 'ghost', 'bug']","['spoink', 'grumpig']",3,False,False,80,45,65,80,90,110
+spinda,['normal'],['fighting'],['spinda'],3,False,False,60,60,60,60,60,60
+trapinch,['ground'],"['ice', 'water', 'grass']","['trapinch', 'vibrava', 'flygon']",3,False,False,45,100,45,10,45,45
+vibrava,"['ground', 'dragon']","['dragon', 'ice', 'water', 'grass', 'fairy']","['trapinch', 'vibrava', 'flygon']",3,False,False,50,70,50,70,50,50
+flygon,"['ground', 'dragon']","['dragon', 'ice', 'water', 'grass', 'fairy']","['trapinch', 'vibrava', 'flygon']",3,False,False,80,100,80,100,80,80
+cacnea,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['cacnea', 'cacturne']",3,False,False,50,85,40,35,85,40
+cacturne,"['grass', 'dark']","['fire', 'poison', 'ice', 'flying', 'bug', 'fairy', 'fighting']","['cacnea', 'cacturne']",3,False,False,70,115,60,55,115,60
+swablu,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['swablu', 'altaria']",3,False,False,45,40,60,50,40,75
+altaria,"['dragon', 'flying']","['dragon', 'electric', 'ice', 'fairy', 'rock']","['swablu', 'altaria']",3,False,False,75,70,90,80,70,105
+zangoose,['normal'],['fighting'],['zangoose'],3,False,False,73,115,60,90,60,60
+seviper,['poison'],"['psychic', 'ground']",['seviper'],3,False,False,73,100,60,65,100,60
+lunatone,"['rock', 'psychic']","['dark', 'water', 'ghost', 'ground', 'steel', 'grass', 'bug', 'fighting']",['lunatone'],3,False,False,90,55,65,70,95,85
+solrock,"['rock', 'psychic']","['dark', 'water', 'ghost', 'ground', 'steel', 'grass', 'bug', 'fighting']",['solrock'],3,False,False,90,95,85,70,55,65
+barboach,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['barboach', 'whiscash']",3,False,False,50,48,43,60,46,41
+whiscash,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['barboach', 'whiscash']",3,False,False,110,78,73,60,76,71
+corphish,['water'],"['electric', 'grass']","['corphish', 'crawdaunt']",3,False,False,43,80,65,35,50,35
+crawdaunt,"['water', 'dark']","['electric', 'grass', 'bug', 'fairy', 'fighting']","['corphish', 'crawdaunt']",3,False,False,63,120,85,55,90,55
+baltoy,"['ground', 'psychic']","['dark', 'ice', 'water', 'ghost', 'grass', 'bug']","['baltoy', 'claydol']",3,False,False,40,40,55,55,40,70
+claydol,"['ground', 'psychic']","['dark', 'ice', 'water', 'ghost', 'grass', 'bug']","['baltoy', 'claydol']",3,False,False,60,70,105,75,70,120
+lileep,"['rock', 'grass']","['poison', 'fire', 'ice', 'water', 'flying', 'ground', 'steel', 'grass', 'bug', 'fighting']","['lileep', 'cradily']",3,False,False,66,41,77,23,61,87
+cradily,"['rock', 'grass']","['poison', 'fire', 'ice', 'water', 'flying', 'ground', 'steel', 'grass', 'bug', 'fighting']","['lileep', 'cradily']",3,False,False,86,81,97,43,81,107
+anorith,"['rock', 'bug']","['fire', 'water', 'flying', 'ground', 'steel', 'grass', 'rock', 'fighting']","['anorith', 'armaldo']",3,False,False,45,95,50,75,40,50
+armaldo,"['rock', 'bug']","['fire', 'water', 'flying', 'ground', 'steel', 'grass', 'rock', 'fighting']","['anorith', 'armaldo']",3,False,False,75,125,100,45,70,80
+feebas,['water'],"['electric', 'grass']","['feebas', 'milotic']",3,False,False,20,15,20,80,10,55
+milotic,['water'],"['electric', 'grass']","['feebas', 'milotic']",3,False,False,95,60,79,81,100,125
+castform,['normal'],['fighting'],['castform'],3,False,False,70,70,70,70,70,70
+kecleon,['normal'],['fighting'],['kecleon'],3,False,False,60,90,70,40,60,120
+shuppet,['ghost'],"['dark', 'ghost']","['shuppet', 'banette']",3,False,False,44,75,35,45,63,33
+banette,['ghost'],"['dark', 'ghost']","['shuppet', 'banette']",3,False,False,64,115,65,65,83,63
+duskull,['ghost'],"['dark', 'ghost']","['duskull', 'dusclops', 'dusknoir']",3,False,False,20,40,90,25,30,90
+dusclops,['ghost'],"['dark', 'ghost']","['duskull', 'dusclops', 'dusknoir']",3,False,False,40,70,130,25,60,130
+tropius,"['grass', 'flying']","['fire', 'poison', 'electric', 'ice', 'flying', 'bug', 'rock']",['tropius'],3,False,False,99,68,83,51,72,87
+chimecho,['psychic'],"['dark', 'ghost', 'bug']","['chingling', 'chimecho']",3,False,False,75,50,80,65,95,90
+absol,['dark'],"['fairy', 'fighting', 'bug']",['absol'],3,False,False,65,130,60,75,75,60
+wynaut,['psychic'],"['dark', 'ghost', 'bug']","['wynaut', 'wobbuffet']",3,False,False,95,23,48,23,23,48
+snorunt,['ice'],"['fire', 'rock', 'fighting', 'steel']","['snorunt', 'glalie']",3,False,False,50,50,50,50,50,50
+glalie,['ice'],"['fire', 'rock', 'fighting', 'steel']","['snorunt', 'glalie']",3,False,False,80,80,80,80,80,80
+spheal,"['ice', 'water']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']","['spheal', 'sealeo', 'walrein']",3,False,False,70,40,50,25,55,50
+sealeo,"['ice', 'water']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']","['spheal', 'sealeo', 'walrein']",3,False,False,90,60,70,45,75,70
+walrein,"['ice', 'water']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']","['spheal', 'sealeo', 'walrein']",3,False,False,110,80,90,65,95,90
+clamperl,['water'],"['electric', 'grass']","['clamperl', 'huntail']",3,False,False,35,64,85,32,74,55
+huntail,['water'],"['electric', 'grass']","['clamperl', 'huntail']",3,False,False,55,104,105,52,94,75
+gorebyss,['water'],"['electric', 'grass']","['clamperl', 'huntail']",3,False,False,55,84,105,52,114,75
+relicanth,"['water', 'rock']","['electric', 'water', 'grass', 'steel', 'ground', 'fighting']",['relicanth'],3,False,False,100,90,130,55,45,65
+luvdisc,['water'],"['electric', 'grass']",['luvdisc'],3,False,False,43,30,55,97,40,65
+bagon,['dragon'],"['ice', 'fairy', 'dragon']","['bagon', 'shelgon', 'salamence']",3,False,False,45,75,60,50,40,30
+shelgon,['dragon'],"['ice', 'fairy', 'dragon']","['bagon', 'shelgon', 'salamence']",3,False,False,65,95,100,50,60,50
+salamence,"['dragon', 'flying']","['dragon', 'electric', 'ice', 'fairy', 'rock']","['bagon', 'shelgon', 'salamence']",3,False,False,95,135,80,100,110,80
+beldum,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']","['beldum', 'metang', 'metagross']",3,False,False,40,55,80,30,35,60
+metang,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']","['beldum', 'metang', 'metagross']",3,False,False,60,75,100,50,55,80
+metagross,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']","['beldum', 'metang', 'metagross']",3,False,False,80,135,130,70,95,90
+regirock,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']",['regirock'],3,True,False,80,100,200,50,50,100
+regice,['ice'],"['fire', 'rock', 'fighting', 'steel']",['regice'],3,True,False,80,50,100,50,100,200
+registeel,['steel'],"['fire', 'fighting', 'ground']",['registeel'],3,True,False,80,75,150,50,75,150
+latias,"['dragon', 'psychic']","['dragon', 'dark', 'ice', 'ghost', 'bug', 'fairy']",['latias'],3,True,False,80,80,90,110,110,130
+latios,"['dragon', 'psychic']","['dragon', 'dark', 'ice', 'ghost', 'bug', 'fairy']",['latios'],3,True,False,80,90,80,110,130,110
+kyogre,['water'],"['electric', 'grass']",['kyogre'],3,True,False,100,100,90,90,150,140
+groudon,['ground'],"['ice', 'water', 'grass']",['groudon'],3,True,False,100,150,140,90,100,90
+rayquaza,"['dragon', 'flying']","['dragon', 'electric', 'ice', 'fairy', 'rock']",['rayquaza'],3,True,False,105,150,90,95,150,90
+jirachi,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']",['jirachi'],3,False,True,100,100,100,100,100,100
+deoxys-normal,['psychic'],"['dark', 'ghost', 'bug']",['deoxys'],3,False,True,50,150,50,150,150,50
+turtwig,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['turtwig', 'grotle', 'torterra']",4,False,False,55,68,64,31,45,55
+grotle,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['turtwig', 'grotle', 'torterra']",4,False,False,75,89,85,36,55,65
+torterra,"['grass', 'ground']","['fire', 'poison', 'ice', 'water', 'flying', 'grass', 'bug']","['turtwig', 'grotle', 'torterra']",4,False,False,95,109,105,56,75,85
+chimchar,['fire'],"['water', 'rock', 'ground']","['chimchar', 'monferno', 'infernape']",4,False,False,44,58,44,61,58,44
+monferno,"['fire', 'fighting']","['psychic', 'water', 'flying', 'ground', 'fairy', 'rock']","['chimchar', 'monferno', 'infernape']",4,False,False,64,78,52,81,78,52
+infernape,"['fire', 'fighting']","['psychic', 'water', 'flying', 'ground', 'fairy', 'rock']","['chimchar', 'monferno', 'infernape']",4,False,False,76,104,71,108,104,71
+piplup,['water'],"['electric', 'grass']","['piplup', 'prinplup', 'empoleon']",4,False,False,53,51,53,40,61,56
+prinplup,['water'],"['electric', 'grass']","['piplup', 'prinplup', 'empoleon']",4,False,False,64,66,68,50,81,76
+empoleon,"['water', 'steel']","['fire', 'electric', 'grass', 'ground', 'fighting']","['piplup', 'prinplup', 'empoleon']",4,False,False,84,86,88,60,111,101
+starly,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['starly', 'staravia', 'staraptor']",4,False,False,40,55,30,60,30,30
+staravia,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['starly', 'staravia', 'staraptor']",4,False,False,55,75,50,80,40,40
+staraptor,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['starly', 'staravia', 'staraptor']",4,False,False,85,120,70,100,50,60
+bidoof,['normal'],['fighting'],"['bidoof', 'bibarel']",4,False,False,59,45,40,31,35,40
+bibarel,"['normal', 'water']","['electric', 'fighting', 'grass']","['bidoof', 'bibarel']",4,False,False,79,85,60,71,55,60
+kricketot,['bug'],"['fire', 'rock', 'flying']","['kricketot', 'kricketune']",4,False,False,37,25,41,25,25,41
+kricketune,['bug'],"['fire', 'rock', 'flying']","['kricketot', 'kricketune']",4,False,False,77,85,51,65,55,51
+shinx,['electric'],['ground'],"['shinx', 'luxio', 'luxray']",4,False,False,45,65,34,45,40,34
+luxio,['electric'],['ground'],"['shinx', 'luxio', 'luxray']",4,False,False,60,85,49,60,60,49
+luxray,['electric'],['ground'],"['shinx', 'luxio', 'luxray']",4,False,False,80,120,79,70,95,79
+budew,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['budew', 'roselia', 'roserade']",4,False,False,40,30,35,55,50,70
+roserade,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['budew', 'roselia', 'roserade']",4,False,False,60,70,65,90,125,105
+cranidos,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['cranidos', 'rampardos']",4,False,False,67,125,40,58,30,30
+rampardos,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['cranidos', 'rampardos']",4,False,False,97,165,60,58,65,50
+shieldon,"['rock', 'steel']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']","['shieldon', 'bastiodon']",4,False,False,30,42,118,30,42,88
+bastiodon,"['rock', 'steel']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']","['shieldon', 'bastiodon']",4,False,False,60,52,168,30,47,138
+burmy,['bug'],"['fire', 'rock', 'flying']","['burmy', 'wormadam']",4,False,False,40,29,45,36,29,45
+wormadam-plant,"['bug', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'rock']","['burmy', 'wormadam']",4,False,False,60,59,85,36,79,105
+mothim,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['burmy', 'wormadam']",4,False,False,70,94,50,66,94,50
+combee,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['combee', 'vespiquen']",4,False,False,30,30,42,70,30,42
+vespiquen,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['combee', 'vespiquen']",4,False,False,70,80,102,40,80,102
+pachirisu,['electric'],['ground'],['pachirisu'],4,False,False,60,45,70,95,45,90
+buizel,['water'],"['electric', 'grass']","['buizel', 'floatzel']",4,False,False,55,65,35,85,60,30
+floatzel,['water'],"['electric', 'grass']","['buizel', 'floatzel']",4,False,False,85,105,55,115,85,50
+cherubi,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['cherubi', 'cherrim']",4,False,False,45,35,45,35,62,53
+cherrim,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['cherubi', 'cherrim']",4,False,False,70,60,70,85,87,78
+shellos,['water'],"['electric', 'grass']","['shellos', 'gastrodon']",4,False,False,76,48,48,34,57,62
+gastrodon,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['shellos', 'gastrodon']",4,False,False,111,83,68,39,92,82
+ambipom,['normal'],['fighting'],"['aipom', 'ambipom']",4,False,False,75,100,66,115,60,66
+drifloon,"['ghost', 'flying']","['electric', 'dark', 'ice', 'ghost', 'rock']","['drifloon', 'drifblim']",4,False,False,90,50,34,70,60,44
+drifblim,"['ghost', 'flying']","['electric', 'dark', 'ice', 'ghost', 'rock']","['drifloon', 'drifblim']",4,False,False,150,80,44,80,90,54
+buneary,['normal'],['fighting'],"['buneary', 'lopunny']",4,False,False,55,66,44,85,44,56
+lopunny,['normal'],['fighting'],"['buneary', 'lopunny']",4,False,False,65,76,84,105,54,96
+mismagius,['ghost'],"['dark', 'ghost']","['misdreavus', 'mismagius']",4,False,False,60,60,60,105,105,105
+honchkrow,"['dark', 'flying']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']","['murkrow', 'honchkrow']",4,False,False,100,125,52,71,105,52
+glameow,['normal'],['fighting'],"['glameow', 'purugly']",4,False,False,49,55,42,85,42,37
+purugly,['normal'],['fighting'],"['glameow', 'purugly']",4,False,False,71,82,64,112,64,59
+chingling,['psychic'],"['dark', 'ghost', 'bug']","['chingling', 'chimecho']",4,False,False,45,30,50,45,65,50
+stunky,"['poison', 'dark']","['psychic', 'ground', 'bug', 'fairy', 'fighting']","['stunky', 'skuntank']",4,False,False,63,63,47,74,41,41
+skuntank,"['poison', 'dark']","['psychic', 'ground', 'bug', 'fairy', 'fighting']","['stunky', 'skuntank']",4,False,False,103,93,67,84,71,61
+bronzor,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']","['bronzor', 'bronzong']",4,False,False,57,24,86,23,24,86
+bronzong,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']","['bronzor', 'bronzong']",4,False,False,67,89,116,33,79,116
+bonsly,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['bonsly', 'sudowoodo']",4,False,False,50,80,95,10,10,45
+mime-jr,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']","['mime-jr', 'mr-mime', 'mr-rime']",4,False,False,20,25,45,60,70,90
+happiny,['normal'],['fighting'],"['happiny', 'chansey', 'blissey']",4,False,False,100,5,5,30,15,65
+chatot,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']",['chatot'],4,False,False,76,65,45,91,92,42
+spiritomb,"['ghost', 'dark']","['dark', 'ghost', 'bug', 'fairy', 'fighting']",['spiritomb'],4,False,False,50,92,108,35,92,108
+gible,"['dragon', 'ground']","['dragon', 'ice', 'water', 'grass', 'fairy']","['gible', 'gabite', 'garchomp']",4,False,False,58,70,45,42,40,45
+gabite,"['dragon', 'ground']","['dragon', 'ice', 'water', 'grass', 'fairy']","['gible', 'gabite', 'garchomp']",4,False,False,68,90,65,82,50,55
+garchomp,"['dragon', 'ground']","['dragon', 'ice', 'water', 'grass', 'fairy']","['gible', 'gabite', 'garchomp']",4,False,False,108,130,95,102,80,85
+munchlax,['normal'],['fighting'],"['munchlax', 'snorlax']",4,False,False,135,85,40,5,40,85
+riolu,['fighting'],"['fairy', 'psychic', 'flying']","['riolu', 'lucario']",4,False,False,40,70,40,60,35,40
+lucario,"['fighting', 'steel']","['psychic', 'fire', 'flying', 'ground', 'fairy', 'fighting']","['riolu', 'lucario']",4,False,False,70,110,70,90,115,70
+hippopotas,['ground'],"['ice', 'water', 'grass']","['hippopotas', 'hippowdon']",4,False,False,68,72,78,32,38,42
+hippowdon,['ground'],"['ice', 'water', 'grass']","['hippopotas', 'hippowdon']",4,False,False,108,112,118,47,68,72
+skorupi,"['poison', 'bug']","['fire', 'psychic', 'flying', 'ground', 'rock']","['skorupi', 'drapion']",4,False,False,40,50,90,65,30,55
+drapion,"['poison', 'dark']","['psychic', 'ground', 'bug', 'fairy', 'fighting']","['skorupi', 'drapion']",4,False,False,70,90,110,95,60,75
+croagunk,"['poison', 'fighting']","['fairy', 'psychic', 'ground', 'flying']","['croagunk', 'toxicroak']",4,False,False,48,61,40,50,61,40
+toxicroak,"['poison', 'fighting']","['fairy', 'psychic', 'ground', 'flying']","['croagunk', 'toxicroak']",4,False,False,83,106,65,85,86,65
+carnivine,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']",['carnivine'],4,False,False,74,100,72,46,90,72
+finneon,['water'],"['electric', 'grass']","['finneon', 'lumineon']",4,False,False,49,49,56,66,49,61
+lumineon,['water'],"['electric', 'grass']","['finneon', 'lumineon']",4,False,False,69,69,76,91,69,86
+mantyke,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['mantyke', 'mantine']",4,False,False,45,20,50,50,60,120
+snover,"['grass', 'ice']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug', 'rock', 'fighting']","['snover', 'abomasnow']",4,False,False,60,62,50,40,62,60
+abomasnow,"['grass', 'ice']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug', 'rock', 'fighting']","['snover', 'abomasnow']",4,False,False,90,92,75,60,92,85
+weavile,"['dark', 'ice']","['fire', 'steel', 'bug', 'fairy', 'rock', 'fighting']","['sneasel', 'weavile']",4,False,False,70,120,65,125,45,85
+magnezone,"['electric', 'steel']","['fire', 'fighting', 'ground']","['magnemite', 'magneton', 'magnezone']",4,False,False,70,70,115,60,130,90
+lickilicky,['normal'],['fighting'],"['lickitung', 'lickilicky']",4,False,False,110,85,95,50,80,95
+rhyperior,"['ground', 'rock']","['ice', 'water', 'grass', 'ground', 'steel', 'fighting']","['rhyhorn', 'rhydon', 'rhyperior']",4,False,False,115,140,130,40,55,55
+tangrowth,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['tangela', 'tangrowth']",4,False,False,100,100,125,50,110,50
+electivire,['electric'],['ground'],"['elekid', 'electabuzz', 'electivire']",4,False,False,75,123,67,95,95,85
+magmortar,['fire'],"['water', 'rock', 'ground']","['magby', 'magmar', 'magmortar']",4,False,False,75,95,67,83,125,95
+togekiss,"['fairy', 'flying']","['poison', 'electric', 'ice', 'steel', 'rock']","['togepi', 'togetic', 'togekiss']",4,False,False,85,50,95,80,120,115
+yanmega,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['yanma', 'yanmega']",4,False,False,86,76,86,95,116,56
+leafeon,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['eevee', 'vaporeon']",4,False,False,65,110,130,95,60,65
+glaceon,['ice'],"['fire', 'rock', 'fighting', 'steel']","['eevee', 'vaporeon']",4,False,False,65,60,110,65,130,95
+gliscor,"['ground', 'flying']","['electric', 'ice', 'water', 'grass', 'rock']","['gligar', 'gliscor']",4,False,False,75,95,125,95,45,75
+mamoswine,"['ice', 'ground']","['fire', 'ice', 'water', 'grass', 'steel', 'rock', 'fighting']","['swinub', 'piloswine', 'mamoswine']",4,False,False,110,130,80,80,70,60
+porygon-z,['normal'],['fighting'],"['porygon', 'porygon2', 'porygon-z']",4,False,False,85,80,70,90,135,75
+gallade,"['psychic', 'fighting']","['psychic', 'dark', 'flying', 'ghost', 'bug', 'fairy']","['ralts', 'kirlia', 'gardevoir']",4,False,False,68,125,65,80,65,115
+probopass,"['rock', 'steel']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']","['nosepass', 'probopass']",4,False,False,60,55,145,40,75,150
+dusknoir,['ghost'],"['dark', 'ghost']","['duskull', 'dusclops', 'dusknoir']",4,False,False,45,100,135,45,65,135
+froslass,"['ice', 'ghost']","['fire', 'dark', 'ghost', 'steel', 'rock', 'fighting']","['snorunt', 'glalie']",4,False,False,70,80,70,110,80,70
+rotom,"['electric', 'ghost']","['dark', 'ground', 'ghost']",['rotom'],4,False,False,50,50,77,91,95,77
+uxie,['psychic'],"['dark', 'ghost', 'bug']",['uxie'],4,True,False,75,75,130,95,75,130
+mesprit,['psychic'],"['dark', 'ghost', 'bug']",['mesprit'],4,True,False,80,105,105,80,105,105
+azelf,['psychic'],"['dark', 'ghost', 'bug']",['azelf'],4,True,False,75,125,70,115,125,70
+dialga,"['steel', 'dragon']","['fire', 'dragon', 'ice', 'ground', 'fairy', 'fighting']",['dialga'],4,True,False,100,120,120,90,150,100
+palkia,"['water', 'dragon']","['dragon', 'electric', 'ice', 'grass', 'fairy']",['palkia'],4,True,False,90,120,100,100,150,120
+heatran,"['fire', 'steel']","['fire', 'water', 'ground', 'rock', 'fighting']",['heatran'],4,True,False,91,90,106,77,130,106
+regigigas,['normal'],['fighting'],['regigigas'],4,True,False,110,160,110,100,80,110
+giratina-altered,"['ghost', 'dragon']","['dragon', 'dark', 'ice', 'ghost', 'fairy']",['giratina'],4,True,False,150,100,120,90,100,120
+cresselia,['psychic'],"['dark', 'ghost', 'bug']",['cresselia'],4,True,False,120,70,110,85,75,120
+phione,['water'],"['electric', 'grass']","['phione', 'manaphy']",4,False,True,80,80,80,80,80,80
+manaphy,['water'],"['electric', 'grass']","['phione', 'manaphy']",4,False,True,100,100,100,100,100,100
+darkrai,['dark'],"['fairy', 'fighting', 'bug']",['darkrai'],4,False,True,70,90,90,125,135,90
+shaymin-land,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']",['shaymin'],4,False,True,100,100,100,100,100,100
+arceus,['normal'],['fighting'],['arceus'],4,False,True,120,120,120,120,120,120
+victini,"['psychic', 'fire']","['dark', 'water', 'ghost', 'ground', 'bug', 'rock']",['victini'],5,False,True,100,100,100,100,100,100
+snivy,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['snivy', 'servine', 'serperior']",5,False,False,45,45,55,63,45,55
+servine,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['snivy', 'servine', 'serperior']",5,False,False,60,60,75,83,60,75
+serperior,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['snivy', 'servine', 'serperior']",5,False,False,75,75,95,113,75,95
+tepig,['fire'],"['water', 'rock', 'ground']","['tepig', 'pignite', 'emboar']",5,False,False,65,63,45,45,45,45
+pignite,"['fire', 'fighting']","['psychic', 'water', 'flying', 'ground', 'fairy', 'rock']","['tepig', 'pignite', 'emboar']",5,False,False,90,93,55,55,70,55
+emboar,"['fire', 'fighting']","['psychic', 'water', 'flying', 'ground', 'fairy', 'rock']","['tepig', 'pignite', 'emboar']",5,False,False,110,123,65,65,100,65
+oshawott,['water'],"['electric', 'grass']","['oshawott', 'dewott', 'samurott']",5,False,False,55,55,45,45,63,45
+dewott,['water'],"['electric', 'grass']","['oshawott', 'dewott', 'samurott']",5,False,False,75,75,60,60,83,60
+samurott,['water'],"['electric', 'grass']","['oshawott', 'dewott', 'samurott']",5,False,False,95,100,85,70,108,70
+patrat,['normal'],['fighting'],"['patrat', 'watchog']",5,False,False,45,55,39,42,35,39
+watchog,['normal'],['fighting'],"['patrat', 'watchog']",5,False,False,60,85,69,77,60,69
+lillipup,['normal'],['fighting'],"['lillipup', 'herdier', 'stoutland']",5,False,False,45,60,45,55,25,45
+herdier,['normal'],['fighting'],"['lillipup', 'herdier', 'stoutland']",5,False,False,65,80,65,60,35,65
+stoutland,['normal'],['fighting'],"['lillipup', 'herdier', 'stoutland']",5,False,False,85,110,90,80,45,90
+purrloin,['dark'],"['fairy', 'fighting', 'bug']","['purrloin', 'liepard']",5,False,False,41,50,37,66,50,37
+liepard,['dark'],"['fairy', 'fighting', 'bug']","['purrloin', 'liepard']",5,False,False,64,88,50,106,88,50
+pansage,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['pansage', 'simisage']",5,False,False,50,53,48,64,53,48
+simisage,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['pansage', 'simisage']",5,False,False,75,98,63,101,98,63
+pansear,['fire'],"['water', 'rock', 'ground']","['pansear', 'simisear']",5,False,False,50,53,48,64,53,48
+simisear,['fire'],"['water', 'rock', 'ground']","['pansear', 'simisear']",5,False,False,75,98,63,101,98,63
+panpour,['water'],"['electric', 'grass']","['panpour', 'simipour']",5,False,False,50,53,48,64,53,48
+simipour,['water'],"['electric', 'grass']","['panpour', 'simipour']",5,False,False,75,98,63,101,98,63
+munna,['psychic'],"['dark', 'ghost', 'bug']","['munna', 'musharna']",5,False,False,76,25,45,24,67,55
+musharna,['psychic'],"['dark', 'ghost', 'bug']","['munna', 'musharna']",5,False,False,116,55,85,29,107,95
+pidove,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pidove', 'tranquill', 'unfezant']",5,False,False,50,55,50,43,36,30
+tranquill,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pidove', 'tranquill', 'unfezant']",5,False,False,62,77,62,65,50,42
+unfezant,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pidove', 'tranquill', 'unfezant']",5,False,False,80,115,80,93,65,55
+blitzle,['electric'],['ground'],"['blitzle', 'zebstrika']",5,False,False,45,60,32,76,50,32
+zebstrika,['electric'],['ground'],"['blitzle', 'zebstrika']",5,False,False,75,100,63,116,80,63
+roggenrola,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['roggenrola', 'boldore', 'gigalith']",5,False,False,55,75,85,15,25,25
+boldore,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['roggenrola', 'boldore', 'gigalith']",5,False,False,70,105,105,20,50,40
+gigalith,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['roggenrola', 'boldore', 'gigalith']",5,False,False,85,135,130,25,60,80
+woobat,"['psychic', 'flying']","['electric', 'dark', 'ice', 'ghost', 'bug', 'rock']","['woobat', 'swoobat']",5,False,False,65,45,43,72,55,43
+swoobat,"['psychic', 'flying']","['electric', 'dark', 'ice', 'ghost', 'bug', 'rock']","['woobat', 'swoobat']",5,False,False,67,57,55,114,77,55
+drilbur,['ground'],"['ice', 'water', 'grass']","['drilbur', 'excadrill']",5,False,False,60,85,40,68,30,45
+excadrill,"['ground', 'steel']","['fire', 'ice', 'water', 'grass', 'ground', 'fighting']","['drilbur', 'excadrill']",5,False,False,110,135,60,88,50,65
+audino,['normal'],['fighting'],['audino'],5,False,False,103,60,86,50,60,86
+timburr,['fighting'],"['fairy', 'psychic', 'flying']","['timburr', 'gurdurr', 'conkeldurr']",5,False,False,75,80,55,35,25,35
+gurdurr,['fighting'],"['fairy', 'psychic', 'flying']","['timburr', 'gurdurr', 'conkeldurr']",5,False,False,85,105,85,40,40,50
+conkeldurr,['fighting'],"['fairy', 'psychic', 'flying']","['timburr', 'gurdurr', 'conkeldurr']",5,False,False,105,140,95,45,55,65
+tympole,['water'],"['electric', 'grass']","['tympole', 'palpitoad', 'seismitoad']",5,False,False,50,50,40,64,50,40
+palpitoad,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['tympole', 'palpitoad', 'seismitoad']",5,False,False,75,65,55,69,65,55
+seismitoad,"['water', 'ground']","['ice', 'water', 'electric', 'grass']","['tympole', 'palpitoad', 'seismitoad']",5,False,False,105,95,75,74,85,75
+throh,['fighting'],"['fairy', 'psychic', 'flying']",['throh'],5,False,False,120,100,85,45,30,85
+sawk,['fighting'],"['fairy', 'psychic', 'flying']",['sawk'],5,False,False,75,125,75,85,30,75
+sewaddle,"['bug', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'rock']","['sewaddle', 'swadloon', 'leavanny']",5,False,False,45,53,70,42,40,60
+swadloon,"['bug', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'rock']","['sewaddle', 'swadloon', 'leavanny']",5,False,False,55,63,90,42,50,80
+leavanny,"['bug', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'rock']","['sewaddle', 'swadloon', 'leavanny']",5,False,False,75,103,80,92,70,80
+venipede,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['venipede', 'whirlipede', 'scolipede']",5,False,False,30,45,59,57,30,39
+whirlipede,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['venipede', 'whirlipede', 'scolipede']",5,False,False,40,55,99,47,40,79
+scolipede,"['bug', 'poison']","['psychic', 'fire', 'flying', 'ground', 'rock']","['venipede', 'whirlipede', 'scolipede']",5,False,False,60,100,89,112,55,69
+cottonee,"['grass', 'fairy']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug']","['cottonee', 'whimsicott']",5,False,False,40,27,60,66,37,50
+whimsicott,"['grass', 'fairy']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug']","['cottonee', 'whimsicott']",5,False,False,60,67,85,116,77,75
+petilil,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['petilil', 'lilligant']",5,False,False,45,35,50,30,70,50
+lilligant,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['petilil', 'lilligant']",5,False,False,70,60,75,90,110,75
+basculin-red-striped,['water'],"['electric', 'grass']","['basculin', 'basculegion']",5,False,False,70,92,65,98,80,55
+sandile,"['ground', 'dark']","['ice', 'water', 'grass', 'bug', 'fairy', 'fighting']","['sandile', 'krokorok', 'krookodile']",5,False,False,50,72,35,65,35,35
+krokorok,"['ground', 'dark']","['ice', 'water', 'grass', 'bug', 'fairy', 'fighting']","['sandile', 'krokorok', 'krookodile']",5,False,False,60,82,45,74,45,45
+krookodile,"['ground', 'dark']","['ice', 'water', 'grass', 'bug', 'fairy', 'fighting']","['sandile', 'krokorok', 'krookodile']",5,False,False,95,117,80,92,65,70
+darumaka,['fire'],"['water', 'rock', 'ground']","['darumaka', 'darmanitan']",5,False,False,70,90,45,50,15,45
+darmanitan-standard,['fire'],"['water', 'rock', 'ground']","['darumaka', 'darmanitan']",5,False,False,105,140,55,95,30,55
+maractus,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']",['maractus'],5,False,False,75,86,67,60,106,67
+dwebble,"['bug', 'rock']","['fire', 'water', 'flying', 'ground', 'steel', 'grass', 'rock', 'fighting']","['dwebble', 'crustle']",5,False,False,50,65,85,55,35,35
+crustle,"['bug', 'rock']","['fire', 'water', 'flying', 'ground', 'steel', 'grass', 'rock', 'fighting']","['dwebble', 'crustle']",5,False,False,70,105,125,45,65,75
+scraggy,"['dark', 'fighting']","['psychic', 'flying', 'bug', 'fairy', 'fighting']","['scraggy', 'scrafty']",5,False,False,50,75,70,48,35,70
+scrafty,"['dark', 'fighting']","['psychic', 'flying', 'bug', 'fairy', 'fighting']","['scraggy', 'scrafty']",5,False,False,65,90,115,58,45,115
+sigilyph,"['psychic', 'flying']","['electric', 'dark', 'ice', 'ghost', 'bug', 'rock']",['sigilyph'],5,False,False,72,58,80,97,103,80
+yamask,['ghost'],"['dark', 'ghost']","['yamask', 'cofagrigus']",5,False,False,38,30,85,30,55,65
+cofagrigus,['ghost'],"['dark', 'ghost']","['yamask', 'cofagrigus']",5,False,False,58,50,145,30,95,105
+tirtouga,"['water', 'rock']","['electric', 'water', 'grass', 'steel', 'ground', 'fighting']","['tirtouga', 'carracosta']",5,False,False,54,78,103,22,53,45
+carracosta,"['water', 'rock']","['electric', 'water', 'grass', 'steel', 'ground', 'fighting']","['tirtouga', 'carracosta']",5,False,False,74,108,133,32,83,65
+archen,"['rock', 'flying']","['electric', 'ice', 'water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['archen', 'archeops']",5,False,False,55,112,45,70,74,45
+archeops,"['rock', 'flying']","['electric', 'ice', 'water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['archen', 'archeops']",5,False,False,75,140,65,110,112,65
+trubbish,['poison'],"['psychic', 'ground']","['trubbish', 'garbodor']",5,False,False,50,50,62,65,40,62
+garbodor,['poison'],"['psychic', 'ground']","['trubbish', 'garbodor']",5,False,False,80,95,82,75,60,82
+zorua,['dark'],"['fairy', 'fighting', 'bug']","['zorua', 'zoroark']",5,False,False,40,65,40,65,80,40
+zoroark,['dark'],"['fairy', 'fighting', 'bug']","['zorua', 'zoroark']",5,False,False,60,105,60,105,120,60
+minccino,['normal'],['fighting'],"['minccino', 'cinccino']",5,False,False,55,50,40,75,40,40
+cinccino,['normal'],['fighting'],"['minccino', 'cinccino']",5,False,False,75,95,60,115,65,60
+gothita,['psychic'],"['dark', 'ghost', 'bug']","['gothita', 'gothorita', 'gothitelle']",5,False,False,45,30,50,45,55,65
+gothorita,['psychic'],"['dark', 'ghost', 'bug']","['gothita', 'gothorita', 'gothitelle']",5,False,False,60,45,70,55,75,85
+gothitelle,['psychic'],"['dark', 'ghost', 'bug']","['gothita', 'gothorita', 'gothitelle']",5,False,False,70,55,95,65,95,110
+solosis,['psychic'],"['dark', 'ghost', 'bug']","['solosis', 'duosion', 'reuniclus']",5,False,False,45,30,40,20,105,50
+duosion,['psychic'],"['dark', 'ghost', 'bug']","['solosis', 'duosion', 'reuniclus']",5,False,False,65,40,50,30,125,60
+reuniclus,['psychic'],"['dark', 'ghost', 'bug']","['solosis', 'duosion', 'reuniclus']",5,False,False,110,65,75,30,125,85
+ducklett,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['ducklett', 'swanna']",5,False,False,62,44,50,55,44,50
+swanna,"['water', 'flying']","['ice', 'electric', 'grass', 'rock']","['ducklett', 'swanna']",5,False,False,75,87,63,98,87,63
+vanillite,['ice'],"['fire', 'rock', 'fighting', 'steel']","['vanillite', 'vanillish', 'vanilluxe']",5,False,False,36,50,50,44,65,60
+vanillish,['ice'],"['fire', 'rock', 'fighting', 'steel']","['vanillite', 'vanillish', 'vanilluxe']",5,False,False,51,65,65,59,80,75
+vanilluxe,['ice'],"['fire', 'rock', 'fighting', 'steel']","['vanillite', 'vanillish', 'vanilluxe']",5,False,False,71,95,85,79,110,95
+deerling,"['normal', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'fighting']","['deerling', 'sawsbuck']",5,False,False,60,60,50,75,40,50
+sawsbuck,"['normal', 'grass']","['fire', 'poison', 'ice', 'flying', 'bug', 'fighting']","['deerling', 'sawsbuck']",5,False,False,80,100,70,95,60,70
+emolga,"['electric', 'flying']","['ice', 'rock', 'electric', 'ground']",['emolga'],5,False,False,55,75,60,103,75,60
+karrablast,['bug'],"['fire', 'rock', 'flying']","['karrablast', 'escavalier']",5,False,False,50,75,45,60,40,45
+escavalier,"['bug', 'steel']","['fire', 'flying', 'ground', 'rock', 'fighting']","['karrablast', 'escavalier']",5,False,False,70,135,105,20,60,105
+foongus,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['foongus', 'amoonguss']",5,False,False,69,55,45,15,55,55
+amoonguss,"['grass', 'poison']","['fire', 'poison', 'psychic', 'ice', 'flying', 'ground', 'bug']","['foongus', 'amoonguss']",5,False,False,114,85,70,30,85,80
+frillish,"['water', 'ghost']","['electric', 'dark', 'grass', 'ghost']","['frillish', 'jellicent']",5,False,False,55,40,50,40,65,85
+jellicent,"['water', 'ghost']","['electric', 'dark', 'grass', 'ghost']","['frillish', 'jellicent']",5,False,False,100,60,70,60,85,105
+alomomola,['water'],"['electric', 'grass']",['alomomola'],5,False,False,165,75,80,65,40,45
+joltik,"['bug', 'electric']","['fire', 'rock', 'ground', 'flying']","['joltik', 'galvantula']",5,False,False,50,47,50,65,57,50
+galvantula,"['bug', 'electric']","['fire', 'rock', 'ground', 'flying']","['joltik', 'galvantula']",5,False,False,70,77,60,108,97,60
+ferroseed,"['grass', 'steel']","['fire', 'poison', 'ice', 'flying', 'ground', 'bug', 'fighting']","['ferroseed', 'ferrothorn']",5,False,False,44,50,91,10,24,86
+ferrothorn,"['grass', 'steel']","['fire', 'poison', 'ice', 'flying', 'ground', 'bug', 'fighting']","['ferroseed', 'ferrothorn']",5,False,False,74,94,131,20,54,116
+klink,['steel'],"['fire', 'fighting', 'ground']","['klink', 'klang', 'klinklang']",5,False,False,40,55,70,30,45,60
+klang,['steel'],"['fire', 'fighting', 'ground']","['klink', 'klang', 'klinklang']",5,False,False,60,80,95,50,70,85
+klinklang,['steel'],"['fire', 'fighting', 'ground']","['klink', 'klang', 'klinklang']",5,False,False,60,100,115,90,70,85
+tynamo,['electric'],['ground'],"['tynamo', 'eelektrik', 'eelektross']",5,False,False,35,55,40,60,45,40
+eelektrik,['electric'],['ground'],"['tynamo', 'eelektrik', 'eelektross']",5,False,False,65,85,70,40,75,70
+eelektross,['electric'],['ground'],"['tynamo', 'eelektrik', 'eelektross']",5,False,False,85,115,80,50,105,80
+elgyem,['psychic'],"['dark', 'ghost', 'bug']","['elgyem', 'beheeyem']",5,False,False,55,55,55,30,85,55
+beheeyem,['psychic'],"['dark', 'ghost', 'bug']","['elgyem', 'beheeyem']",5,False,False,75,75,75,40,125,95
+litwick,"['ghost', 'fire']","['dark', 'water', 'ghost', 'ground', 'rock']","['litwick', 'lampent', 'chandelure']",5,False,False,50,30,55,20,65,55
+lampent,"['ghost', 'fire']","['dark', 'water', 'ghost', 'ground', 'rock']","['litwick', 'lampent', 'chandelure']",5,False,False,60,40,60,55,95,60
+chandelure,"['ghost', 'fire']","['dark', 'water', 'ghost', 'ground', 'rock']","['litwick', 'lampent', 'chandelure']",5,False,False,60,55,90,80,145,90
+axew,['dragon'],"['ice', 'fairy', 'dragon']","['axew', 'fraxure', 'haxorus']",5,False,False,46,87,60,57,30,40
+fraxure,['dragon'],"['ice', 'fairy', 'dragon']","['axew', 'fraxure', 'haxorus']",5,False,False,66,117,70,67,40,50
+haxorus,['dragon'],"['ice', 'fairy', 'dragon']","['axew', 'fraxure', 'haxorus']",5,False,False,76,147,90,97,60,70
+cubchoo,['ice'],"['fire', 'rock', 'fighting', 'steel']","['cubchoo', 'beartic']",5,False,False,55,70,40,40,60,40
+beartic,['ice'],"['fire', 'rock', 'fighting', 'steel']","['cubchoo', 'beartic']",5,False,False,95,130,80,50,70,80
+cryogonal,['ice'],"['fire', 'rock', 'fighting', 'steel']",['cryogonal'],5,False,False,80,50,50,105,95,135
+shelmet,['bug'],"['fire', 'rock', 'flying']","['shelmet', 'accelgor']",5,False,False,50,40,85,25,40,65
+accelgor,['bug'],"['fire', 'rock', 'flying']","['shelmet', 'accelgor']",5,False,False,80,70,40,145,100,60
+stunfisk,"['ground', 'electric']","['ice', 'water', 'grass', 'ground']",['stunfisk'],5,False,False,109,66,84,32,81,99
+mienfoo,['fighting'],"['fairy', 'psychic', 'flying']","['mienfoo', 'mienshao']",5,False,False,45,85,50,65,55,50
+mienshao,['fighting'],"['fairy', 'psychic', 'flying']","['mienfoo', 'mienshao']",5,False,False,65,125,60,105,95,60
+druddigon,['dragon'],"['ice', 'fairy', 'dragon']",['druddigon'],5,False,False,77,120,90,48,60,90
+golett,"['ground', 'ghost']","['dark', 'ice', 'water', 'ghost', 'grass']","['golett', 'golurk']",5,False,False,59,74,50,35,35,50
+golurk,"['ground', 'ghost']","['dark', 'ice', 'water', 'ghost', 'grass']","['golett', 'golurk']",5,False,False,89,124,80,55,55,80
+pawniard,"['dark', 'steel']","['fire', 'ground', 'bug', 'fairy', 'fighting']","['pawniard', 'bisharp', 'kingambit']",5,False,False,45,85,70,60,40,40
+bisharp,"['dark', 'steel']","['fire', 'ground', 'bug', 'fairy', 'fighting']","['pawniard', 'bisharp', 'kingambit']",5,False,False,65,125,100,70,60,70
+bouffalant,['normal'],['fighting'],['bouffalant'],5,False,False,95,110,95,55,40,95
+rufflet,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['rufflet', 'braviary']",5,False,False,70,83,50,60,37,50
+braviary,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['rufflet', 'braviary']",5,False,False,100,123,75,80,57,75
+vullaby,"['dark', 'flying']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']","['vullaby', 'mandibuzz']",5,False,False,70,55,75,60,45,65
+mandibuzz,"['dark', 'flying']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']","['vullaby', 'mandibuzz']",5,False,False,110,65,105,80,55,95
+heatmor,['fire'],"['water', 'rock', 'ground']",['heatmor'],5,False,False,85,97,66,65,105,66
+durant,"['bug', 'steel']","['fire', 'flying', 'ground', 'rock', 'fighting']",['durant'],5,False,False,58,109,112,109,48,48
+deino,"['dark', 'dragon']","['dragon', 'ice', 'bug', 'fairy', 'fighting']","['deino', 'zweilous', 'hydreigon']",5,False,False,52,65,50,38,45,50
+zweilous,"['dark', 'dragon']","['dragon', 'ice', 'bug', 'fairy', 'fighting']","['deino', 'zweilous', 'hydreigon']",5,False,False,72,85,70,58,65,70
+hydreigon,"['dark', 'dragon']","['dragon', 'ice', 'bug', 'fairy', 'fighting']","['deino', 'zweilous', 'hydreigon']",5,False,False,92,105,90,98,125,90
+larvesta,"['bug', 'fire']","['fire', 'water', 'flying', 'ground', 'rock']","['larvesta', 'volcarona']",5,False,False,55,85,55,60,50,55
+volcarona,"['bug', 'fire']","['fire', 'water', 'flying', 'ground', 'rock']","['larvesta', 'volcarona']",5,False,False,85,60,65,100,135,105
+cobalion,"['steel', 'fighting']","['psychic', 'fire', 'flying', 'ground', 'fairy', 'fighting']",['cobalion'],5,True,False,91,90,129,108,90,72
+terrakion,"['rock', 'fighting']","['psychic', 'water', 'flying', 'ground', 'steel', 'grass', 'fairy', 'fighting']",['terrakion'],5,True,False,91,129,90,108,72,90
+virizion,"['grass', 'fighting']","['fire', 'poison', 'psychic', 'ice', 'flying', 'bug', 'fairy']",['virizion'],5,True,False,91,90,72,108,90,129
+tornadus-incarnate,['flying'],"['ice', 'rock', 'electric']",['tornadus'],5,True,False,79,115,70,111,125,80
+thundurus-incarnate,"['electric', 'flying']","['ice', 'rock', 'electric', 'ground']",['thundurus'],5,True,False,79,115,70,111,125,80
+reshiram,"['dragon', 'fire']","['dragon', 'ice', 'water', 'ground', 'fairy', 'rock']",['reshiram'],5,True,False,100,120,100,90,150,120
+zekrom,"['dragon', 'electric']","['ice', 'fairy', 'dragon', 'ground']",['zekrom'],5,True,False,100,150,120,90,120,100
+landorus-incarnate,"['ground', 'flying']","['electric', 'ice', 'water', 'grass', 'rock']",['landorus'],5,True,False,89,125,90,101,115,80
+kyurem,"['dragon', 'ice']","['fire', 'dragon', 'ice', 'steel', 'fairy', 'rock', 'fighting']",['kyurem'],5,True,False,125,130,90,95,130,90
+keldeo-ordinary,"['water', 'fighting']","['psychic', 'electric', 'flying', 'grass', 'fairy']",['keldeo'],5,False,True,91,72,90,108,129,90
+meloetta-aria,"['normal', 'psychic']","['dark', 'fighting', 'ghost', 'bug']",['meloetta'],5,False,True,100,77,77,90,128,128
+genesect,"['bug', 'steel']","['fire', 'flying', 'ground', 'rock', 'fighting']",['genesect'],5,False,True,71,120,95,99,120,95
+chespin,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['chespin', 'quilladin', 'chesnaught']",6,False,False,56,61,65,38,48,45
+quilladin,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['chespin', 'quilladin', 'chesnaught']",6,False,False,61,78,95,57,56,58
+chesnaught,"['grass', 'fighting']","['fire', 'poison', 'psychic', 'ice', 'flying', 'bug', 'fairy']","['chespin', 'quilladin', 'chesnaught']",6,False,False,88,107,122,64,74,75
+fennekin,['fire'],"['water', 'rock', 'ground']","['fennekin', 'braixen', 'delphox']",6,False,False,40,45,40,60,62,60
+braixen,['fire'],"['water', 'rock', 'ground']","['fennekin', 'braixen', 'delphox']",6,False,False,59,59,58,73,90,70
+delphox,"['fire', 'psychic']","['dark', 'water', 'ghost', 'ground', 'bug', 'rock']","['fennekin', 'braixen', 'delphox']",6,False,False,75,69,72,104,114,100
+froakie,['water'],"['electric', 'grass']","['froakie', 'frogadier', 'greninja']",6,False,False,41,56,40,71,62,44
+frogadier,['water'],"['electric', 'grass']","['froakie', 'frogadier', 'greninja']",6,False,False,54,63,52,97,83,56
+greninja,"['water', 'dark']","['electric', 'grass', 'bug', 'fairy', 'fighting']","['froakie', 'frogadier', 'greninja']",6,False,False,72,95,67,122,103,71
+bunnelby,['normal'],['fighting'],"['bunnelby', 'diggersby']",6,False,False,38,36,38,57,32,36
+diggersby,"['normal', 'ground']","['ice', 'water', 'fighting', 'grass']","['bunnelby', 'diggersby']",6,False,False,85,56,77,78,50,77
+fletchling,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['fletchling', 'fletchinder', 'talonflame']",6,False,False,45,50,43,62,40,38
+fletchinder,"['fire', 'flying']","['electric', 'ice', 'water', 'ground', 'rock']","['fletchling', 'fletchinder', 'talonflame']",6,False,False,62,73,55,84,56,52
+talonflame,"['fire', 'flying']","['electric', 'ice', 'water', 'ground', 'rock']","['fletchling', 'fletchinder', 'talonflame']",6,False,False,78,81,71,126,74,69
+scatterbug,['bug'],"['fire', 'rock', 'flying']","['scatterbug', 'spewpa', 'vivillon']",6,False,False,38,35,40,35,27,25
+spewpa,['bug'],"['fire', 'rock', 'flying']","['scatterbug', 'spewpa', 'vivillon']",6,False,False,45,22,60,29,27,30
+vivillon,"['bug', 'flying']","['fire', 'electric', 'ice', 'flying', 'rock']","['scatterbug', 'spewpa', 'vivillon']",6,False,False,80,52,50,89,90,50
+litleo,"['fire', 'normal']","['water', 'rock', 'fighting', 'ground']","['litleo', 'pyroar']",6,False,False,62,50,58,72,73,54
+pyroar,"['fire', 'normal']","['water', 'rock', 'fighting', 'ground']","['litleo', 'pyroar']",6,False,False,86,68,72,106,109,66
+flabebe,['fairy'],"['poison', 'steel']","['flabebe', 'floette', 'florges']",6,False,False,44,38,39,42,61,79
+floette,['fairy'],"['poison', 'steel']","['flabebe', 'floette', 'florges']",6,False,False,54,45,47,52,75,98
+florges,['fairy'],"['poison', 'steel']","['flabebe', 'floette', 'florges']",6,False,False,78,65,68,75,112,154
+skiddo,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['skiddo', 'gogoat']",6,False,False,66,65,48,52,62,57
+gogoat,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['skiddo', 'gogoat']",6,False,False,123,100,62,68,97,81
+pancham,['fighting'],"['fairy', 'psychic', 'flying']","['pancham', 'pangoro']",6,False,False,67,82,62,43,46,48
+pangoro,"['fighting', 'dark']","['psychic', 'flying', 'bug', 'fairy', 'fighting']","['pancham', 'pangoro']",6,False,False,95,124,78,58,69,71
+furfrou,['normal'],['fighting'],['furfrou'],6,False,False,75,80,60,102,65,90
+espurr,['psychic'],"['dark', 'ghost', 'bug']","['espurr', 'meowstic']",6,False,False,62,48,54,68,63,60
+meowstic-male,['psychic'],"['dark', 'ghost', 'bug']","['espurr', 'meowstic']",6,False,False,74,48,76,104,83,81
+honedge,"['steel', 'ghost']","['fire', 'dark', 'ghost', 'ground', 'fighting']","['honedge', 'doublade', 'aegislash']",6,False,False,45,80,100,28,35,37
+doublade,"['steel', 'ghost']","['fire', 'dark', 'ghost', 'ground', 'fighting']","['honedge', 'doublade', 'aegislash']",6,False,False,59,110,150,35,45,49
+aegislash-shield,"['steel', 'ghost']","['fire', 'dark', 'ghost', 'ground', 'fighting']","['honedge', 'doublade', 'aegislash']",6,False,False,60,50,140,60,50,140
+spritzee,['fairy'],"['poison', 'steel']","['spritzee', 'aromatisse']",6,False,False,78,52,60,23,63,65
+aromatisse,['fairy'],"['poison', 'steel']","['spritzee', 'aromatisse']",6,False,False,101,72,72,29,99,89
+swirlix,['fairy'],"['poison', 'steel']","['swirlix', 'slurpuff']",6,False,False,62,48,66,49,59,57
+slurpuff,['fairy'],"['poison', 'steel']","['swirlix', 'slurpuff']",6,False,False,82,80,86,72,85,75
+inkay,"['dark', 'psychic']","['dark', 'ghost', 'bug', 'fairy', 'fighting']","['inkay', 'malamar']",6,False,False,53,54,53,45,37,46
+malamar,"['dark', 'psychic']","['dark', 'ghost', 'bug', 'fairy', 'fighting']","['inkay', 'malamar']",6,False,False,86,92,88,73,68,75
+binacle,"['rock', 'water']","['electric', 'water', 'ground', 'steel', 'grass', 'fighting']","['binacle', 'barbaracle']",6,False,False,42,52,67,50,39,56
+barbaracle,"['rock', 'water']","['electric', 'water', 'ground', 'steel', 'grass', 'fighting']","['binacle', 'barbaracle']",6,False,False,72,105,115,68,54,86
+skrelp,"['poison', 'water']","['psychic', 'electric', 'ground', 'grass']","['skrelp', 'dragalge']",6,False,False,50,60,60,30,60,60
+dragalge,"['poison', 'dragon']","['psychic', 'dragon', 'ice', 'ground', 'fairy']","['skrelp', 'dragalge']",6,False,False,65,75,90,44,97,123
+clauncher,['water'],"['electric', 'grass']","['clauncher', 'clawitzer']",6,False,False,50,53,62,44,58,63
+clawitzer,['water'],"['electric', 'grass']","['clauncher', 'clawitzer']",6,False,False,71,73,88,59,120,89
+helioptile,"['electric', 'normal']","['fighting', 'ground']","['helioptile', 'heliolisk']",6,False,False,44,38,33,70,61,43
+heliolisk,"['electric', 'normal']","['fighting', 'ground']","['helioptile', 'heliolisk']",6,False,False,62,55,52,109,109,94
+tyrunt,"['rock', 'dragon']","['dragon', 'ice', 'water', 'ground', 'steel', 'grass', 'fairy', 'fighting']","['tyrunt', 'tyrantrum']",6,False,False,58,89,77,48,45,45
+tyrantrum,"['rock', 'dragon']","['dragon', 'ice', 'water', 'ground', 'steel', 'grass', 'fairy', 'fighting']","['tyrunt', 'tyrantrum']",6,False,False,82,121,119,71,69,59
+amaura,"['rock', 'ice']","['fire', 'water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['amaura', 'aurorus']",6,False,False,77,59,50,46,67,63
+aurorus,"['rock', 'ice']","['fire', 'water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['amaura', 'aurorus']",6,False,False,123,77,72,58,99,92
+sylveon,['fairy'],"['poison', 'steel']","['eevee', 'vaporeon']",6,False,False,95,65,65,60,110,130
+hawlucha,"['fighting', 'flying']","['psychic', 'electric', 'ice', 'flying', 'fairy', 'rock']",['hawlucha'],6,False,False,78,92,75,118,74,63
+dedenne,"['electric', 'fairy']","['poison', 'ground', 'steel']",['dedenne'],6,False,False,67,58,57,101,81,67
+carbink,"['rock', 'fairy']","['poison', 'water', 'ground', 'steel', 'grass', 'fighting']",['carbink'],6,False,False,50,50,150,50,50,150
+goomy,['dragon'],"['ice', 'fairy', 'dragon']","['goomy', 'sliggoo', 'goodra']",6,False,False,45,50,35,40,55,75
+sliggoo,['dragon'],"['ice', 'fairy', 'dragon']","['goomy', 'sliggoo', 'goodra']",6,False,False,68,75,53,60,83,113
+goodra,['dragon'],"['ice', 'fairy', 'dragon']","['goomy', 'sliggoo', 'goodra']",6,False,False,90,100,70,80,110,150
+klefki,"['steel', 'fairy']","['poison', 'fire', 'ground', 'steel', 'fighting']",['klefki'],6,False,False,57,80,91,75,80,87
+phantump,"['ghost', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']","['phantump', 'trevenant']",6,False,False,43,70,48,38,50,60
+trevenant,"['ghost', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']","['phantump', 'trevenant']",6,False,False,85,110,76,56,65,82
+pumpkaboo-average,"['ghost', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']","['pumpkaboo', 'gourgeist']",6,False,False,49,66,70,51,44,55
+gourgeist-average,"['ghost', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']","['pumpkaboo', 'gourgeist']",6,False,False,65,90,122,84,58,75
+bergmite,['ice'],"['fire', 'rock', 'fighting', 'steel']","['bergmite', 'avalugg']",6,False,False,55,69,85,28,32,35
+avalugg,['ice'],"['fire', 'rock', 'fighting', 'steel']","['bergmite', 'avalugg']",6,False,False,95,117,184,28,44,46
+noibat,"['flying', 'dragon']","['dragon', 'electric', 'ice', 'fairy', 'rock']","['noibat', 'noivern']",6,False,False,40,30,35,55,45,40
+noivern,"['flying', 'dragon']","['dragon', 'electric', 'ice', 'fairy', 'rock']","['noibat', 'noivern']",6,False,False,85,70,80,123,97,80
+xerneas,['fairy'],"['poison', 'steel']",['xerneas'],6,True,False,126,131,95,99,131,98
+yveltal,"['dark', 'flying']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']",['yveltal'],6,True,False,126,131,95,99,131,98
+zygarde-50,"['dragon', 'ground']","['dragon', 'ice', 'water', 'grass', 'fairy']",['zygarde'],6,True,False,108,100,121,95,81,95
+diancie,"['rock', 'fairy']","['poison', 'water', 'ground', 'steel', 'grass', 'fighting']",['diancie'],6,False,True,50,100,150,50,100,150
+hoopa,"['psychic', 'ghost']","['dark', 'ghost', 'bug']",['hoopa'],6,False,True,80,110,60,70,150,130
+volcanion,"['fire', 'water']","['electric', 'water', 'ground', 'grass', 'rock']",['volcanion'],6,False,True,80,110,120,70,130,90
+rowlet,"['grass', 'flying']","['fire', 'poison', 'electric', 'ice', 'flying', 'bug', 'rock']","['rowlet', 'dartrix', 'decidueye']",7,False,False,68,55,55,42,50,50
+dartrix,"['grass', 'flying']","['fire', 'poison', 'electric', 'ice', 'flying', 'bug', 'rock']","['rowlet', 'dartrix', 'decidueye']",7,False,False,78,75,75,52,70,70
+decidueye,"['grass', 'ghost']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['rowlet', 'dartrix', 'decidueye']",7,False,False,78,107,75,70,100,100
+litten,['fire'],"['water', 'rock', 'ground']","['litten', 'torracat', 'incineroar']",7,False,False,45,65,40,70,60,40
+torracat,['fire'],"['water', 'rock', 'ground']","['litten', 'torracat', 'incineroar']",7,False,False,65,85,50,90,80,50
+incineroar,"['fire', 'dark']","['water', 'ground', 'bug', 'fairy', 'rock', 'fighting']","['litten', 'torracat', 'incineroar']",7,False,False,95,115,90,60,80,90
+popplio,['water'],"['electric', 'grass']","['popplio', 'brionne', 'primarina']",7,False,False,50,54,54,40,66,56
+brionne,['water'],"['electric', 'grass']","['popplio', 'brionne', 'primarina']",7,False,False,60,69,69,50,91,81
+primarina,"['water', 'fairy']","['poison', 'electric', 'grass', 'steel']","['popplio', 'brionne', 'primarina']",7,False,False,80,74,74,60,126,116
+pikipek,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pikipek', 'trumbeak', 'toucannon']",7,False,False,35,75,30,65,30,30
+trumbeak,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pikipek', 'trumbeak', 'toucannon']",7,False,False,55,85,50,75,40,50
+toucannon,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']","['pikipek', 'trumbeak', 'toucannon']",7,False,False,80,120,75,60,75,75
+yungoos,['normal'],['fighting'],"['yungoos', 'gumshoos']",7,False,False,48,70,30,45,30,30
+gumshoos,['normal'],['fighting'],"['yungoos', 'gumshoos']",7,False,False,88,110,60,45,55,60
+grubbin,['bug'],"['fire', 'rock', 'flying']","['grubbin', 'charjabug', 'vikavolt']",7,False,False,47,62,45,46,55,45
+charjabug,"['bug', 'electric']","['fire', 'rock', 'ground', 'flying']","['grubbin', 'charjabug', 'vikavolt']",7,False,False,57,82,95,36,55,75
+vikavolt,"['bug', 'electric']","['fire', 'rock', 'ground', 'flying']","['grubbin', 'charjabug', 'vikavolt']",7,False,False,77,70,90,43,145,75
+crabrawler,['fighting'],"['fairy', 'psychic', 'flying']","['crabrawler', 'crabominable']",7,False,False,47,82,57,63,42,47
+crabominable,"['fighting', 'ice']","['psychic', 'fire', 'flying', 'steel', 'fairy', 'rock', 'fighting']","['crabrawler', 'crabominable']",7,False,False,97,132,77,43,62,67
+oricorio-baile,"['fire', 'flying']","['electric', 'ice', 'water', 'ground', 'rock']",['oricorio'],7,False,False,75,70,70,93,98,70
+cutiefly,"['bug', 'fairy']","['fire', 'poison', 'flying', 'steel', 'rock']","['cutiefly', 'ribombee']",7,False,False,40,45,40,84,55,40
+ribombee,"['bug', 'fairy']","['fire', 'poison', 'flying', 'steel', 'rock']","['cutiefly', 'ribombee']",7,False,False,60,55,60,124,95,70
+rockruff,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['rockruff', 'lycanroc']",7,False,False,45,65,40,60,30,40
+lycanroc-midday,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['rockruff', 'lycanroc']",7,False,False,75,115,65,112,55,65
+wishiwashi-solo,['water'],"['electric', 'grass']",['wishiwashi'],7,False,False,45,20,20,40,25,25
+mareanie,"['poison', 'water']","['psychic', 'electric', 'ground', 'grass']","['mareanie', 'toxapex']",7,False,False,50,53,62,45,43,52
+toxapex,"['poison', 'water']","['psychic', 'electric', 'ground', 'grass']","['mareanie', 'toxapex']",7,False,False,50,63,152,35,53,142
+mudbray,['ground'],"['ice', 'water', 'grass']","['mudbray', 'mudsdale']",7,False,False,70,100,70,45,45,55
+mudsdale,['ground'],"['ice', 'water', 'grass']","['mudbray', 'mudsdale']",7,False,False,100,125,100,35,55,85
+dewpider,"['water', 'bug']","['fire', 'electric', 'flying', 'grass', 'rock']","['dewpider', 'araquanid']",7,False,False,38,40,52,27,40,72
+araquanid,"['water', 'bug']","['fire', 'electric', 'flying', 'grass', 'rock']","['dewpider', 'araquanid']",7,False,False,68,70,92,42,50,132
+fomantis,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['fomantis', 'lurantis']",7,False,False,40,55,35,35,50,35
+lurantis,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['fomantis', 'lurantis']",7,False,False,70,105,90,45,80,90
+morelull,"['grass', 'fairy']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug']","['morelull', 'shiinotic']",7,False,False,40,35,55,15,65,75
+shiinotic,"['grass', 'fairy']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug']","['morelull', 'shiinotic']",7,False,False,60,45,80,30,90,100
+salandit,"['poison', 'fire']","['water', 'psychic', 'ground', 'rock']","['salandit', 'salazzle']",7,False,False,48,44,40,77,71,40
+salazzle,"['poison', 'fire']","['water', 'psychic', 'ground', 'rock']","['salandit', 'salazzle']",7,False,False,68,64,60,117,111,60
+stufful,"['normal', 'fighting']","['fairy', 'psychic', 'fighting', 'flying']","['stufful', 'bewear']",7,False,False,70,75,50,50,45,50
+bewear,"['normal', 'fighting']","['fairy', 'psychic', 'fighting', 'flying']","['stufful', 'bewear']",7,False,False,120,125,80,60,55,60
+bounsweet,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['bounsweet', 'steenee', 'tsareena']",7,False,False,42,30,38,32,30,38
+steenee,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['bounsweet', 'steenee', 'tsareena']",7,False,False,52,40,48,62,40,48
+tsareena,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['bounsweet', 'steenee', 'tsareena']",7,False,False,72,120,98,72,50,98
+comfey,['fairy'],"['poison', 'steel']",['comfey'],7,False,False,51,52,90,100,82,110
+oranguru,"['normal', 'psychic']","['dark', 'fighting', 'ghost', 'bug']",['oranguru'],7,False,False,90,60,80,60,90,110
+passimian,['fighting'],"['fairy', 'psychic', 'flying']",['passimian'],7,False,False,100,120,90,80,40,60
+wimpod,"['bug', 'water']","['fire', 'electric', 'flying', 'grass', 'rock']","['wimpod', 'golisopod']",7,False,False,25,35,40,80,20,30
+golisopod,"['bug', 'water']","['fire', 'electric', 'flying', 'grass', 'rock']","['wimpod', 'golisopod']",7,False,False,75,125,140,40,60,90
+sandygast,"['ghost', 'ground']","['dark', 'ice', 'water', 'ghost', 'grass']","['sandygast', 'palossand']",7,False,False,55,55,80,15,70,45
+palossand,"['ghost', 'ground']","['dark', 'ice', 'water', 'ghost', 'grass']","['sandygast', 'palossand']",7,False,False,85,75,110,35,100,75
+pyukumuku,['water'],"['electric', 'grass']",['pyukumuku'],7,False,False,55,60,130,5,30,130
+type-null,['normal'],['fighting'],"['type-null', 'silvally']",7,False,False,95,95,95,59,95,95
+silvally,['normal'],['fighting'],"['type-null', 'silvally']",7,True,False,95,95,95,95,95,95
+minior-red-meteor,"['rock', 'flying']","['electric', 'ice', 'water', 'ground', 'steel', 'grass', 'rock', 'fighting']",['minior'],7,False,False,60,60,100,60,60,100
+komala,['normal'],['fighting'],['komala'],7,False,False,65,115,65,65,75,95
+turtonator,"['fire', 'dragon']","['dragon', 'ice', 'water', 'ground', 'fairy', 'rock']",['turtonator'],7,False,False,60,78,135,36,91,85
+togedemaru,"['electric', 'steel']","['fire', 'fighting', 'ground']",['togedemaru'],7,False,False,65,98,63,96,40,73
+mimikyu-disguised,"['ghost', 'fairy']","['poison', 'dark', 'steel', 'ghost']",['mimikyu'],7,False,False,55,90,80,96,50,105
+bruxish,"['water', 'psychic']","['electric', 'dark', 'ghost', 'grass', 'bug']",['bruxish'],7,False,False,68,105,70,92,70,70
+drampa,"['normal', 'dragon']","['ice', 'dragon', 'fighting', 'fairy']",['drampa'],7,False,False,78,60,85,36,135,91
+dhelmise,"['ghost', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']",['dhelmise'],7,False,False,70,131,100,40,86,90
+jangmo-o,['dragon'],"['ice', 'fairy', 'dragon']","['jangmo-o', 'hakamo-o', 'kommo-o']",7,False,False,45,55,65,45,45,45
+hakamo-o,"['dragon', 'fighting']","['psychic', 'dragon', 'ice', 'flying', 'fairy']","['jangmo-o', 'hakamo-o', 'kommo-o']",7,False,False,55,75,90,65,65,70
+kommo-o,"['dragon', 'fighting']","['psychic', 'dragon', 'ice', 'flying', 'fairy']","['jangmo-o', 'hakamo-o', 'kommo-o']",7,False,False,75,110,125,85,100,105
+tapu-koko,"['electric', 'fairy']","['poison', 'ground', 'steel']",['tapu-koko'],7,True,False,70,115,85,130,95,75
+tapu-lele,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']",['tapu-lele'],7,True,False,70,85,75,95,130,115
+tapu-bulu,"['grass', 'fairy']","['fire', 'poison', 'ice', 'flying', 'steel', 'bug']",['tapu-bulu'],7,True,False,70,130,115,75,85,95
+tapu-fini,"['water', 'fairy']","['poison', 'electric', 'grass', 'steel']",['tapu-fini'],7,True,False,70,75,115,85,95,130
+cosmog,['psychic'],"['dark', 'ghost', 'bug']","['cosmog', 'cosmoem', 'solgaleo']",7,True,False,43,29,31,37,29,31
+cosmoem,['psychic'],"['dark', 'ghost', 'bug']","['cosmog', 'cosmoem', 'solgaleo']",7,True,False,43,29,131,37,29,131
+solgaleo,"['psychic', 'steel']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']","['cosmog', 'cosmoem', 'solgaleo']",7,True,False,137,137,107,97,113,89
+lunala,"['psychic', 'ghost']","['dark', 'ghost', 'bug']","['cosmog', 'cosmoem', 'solgaleo']",7,True,False,137,113,89,97,137,107
+nihilego,"['rock', 'poison']","['psychic', 'water', 'ground', 'steel', 'grass', 'fighting']",['nihilego'],7,False,False,109,53,47,103,127,131
+buzzwole,"['bug', 'fighting']","['psychic', 'fire', 'flying', 'fairy', 'rock']",['buzzwole'],7,False,False,107,139,139,79,53,53
+pheromosa,"['bug', 'fighting']","['psychic', 'fire', 'flying', 'fairy', 'rock']",['pheromosa'],7,False,False,71,137,37,151,137,37
+xurkitree,['electric'],['ground'],['xurkitree'],7,False,False,83,89,71,83,173,71
+celesteela,"['steel', 'flying']","['fire', 'electric', 'ice', 'ground', 'rock', 'fighting']",['celesteela'],7,False,False,97,101,103,61,107,101
+kartana,"['grass', 'steel']","['fire', 'poison', 'ice', 'flying', 'ground', 'bug', 'fighting']",['kartana'],7,False,False,59,181,131,109,59,31
+guzzlord,"['dark', 'dragon']","['dragon', 'ice', 'bug', 'fairy', 'fighting']",['guzzlord'],7,False,False,223,101,53,43,97,53
+necrozma,['psychic'],"['dark', 'ghost', 'bug']",['necrozma'],7,True,False,97,107,101,79,127,89
+magearna,"['steel', 'fairy']","['poison', 'fire', 'ground', 'steel', 'fighting']",['magearna'],7,False,True,80,95,115,65,130,115
+marshadow,"['fighting', 'ghost']","['psychic', 'dark', 'flying', 'ghost', 'fairy']",['marshadow'],7,False,True,90,125,80,125,90,90
+poipole,['poison'],"['psychic', 'ground']","['poipole', 'naganadel']",7,False,False,67,73,67,73,73,67
+naganadel,"['poison', 'dragon']","['psychic', 'dragon', 'ice', 'ground', 'fairy']","['poipole', 'naganadel']",7,False,False,73,73,73,121,127,73
+stakataka,"['rock', 'steel']","['fire', 'water', 'ground', 'steel', 'grass', 'fighting']",['stakataka'],7,False,False,61,131,211,13,53,101
+blacephalon,"['fire', 'ghost']","['dark', 'water', 'ghost', 'ground', 'rock']",['blacephalon'],7,False,False,53,127,53,107,151,79
+zeraora,['electric'],['ground'],['zeraora'],7,False,True,88,112,75,143,102,80
+meltan,['steel'],"['fire', 'fighting', 'ground']",['meltan'],7,False,True,46,65,65,34,55,35
+melmetal,['steel'],"['fire', 'fighting', 'ground']",['melmetal'],7,False,True,135,143,143,34,80,65
+grookey,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['grookey', 'thwackey', 'rillaboom']",8,False,False,50,65,50,65,40,40
+thwackey,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['grookey', 'thwackey', 'rillaboom']",8,False,False,70,85,70,80,55,60
+rillaboom,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['grookey', 'thwackey', 'rillaboom']",8,False,False,100,125,90,85,60,70
+scorbunny,['fire'],"['water', 'rock', 'ground']","['scorbunny', 'raboot', 'cinderace']",8,False,False,50,71,40,69,40,40
+raboot,['fire'],"['water', 'rock', 'ground']","['scorbunny', 'raboot', 'cinderace']",8,False,False,65,86,60,94,55,60
+cinderace,['fire'],"['water', 'rock', 'ground']","['scorbunny', 'raboot', 'cinderace']",8,False,False,80,116,75,119,65,75
+sobble,['water'],"['electric', 'grass']","['sobble', 'drizzile', 'inteleon']",8,False,False,50,40,40,70,70,40
+drizzile,['water'],"['electric', 'grass']","['sobble', 'drizzile', 'inteleon']",8,False,False,65,60,55,90,95,55
+inteleon,['water'],"['electric', 'grass']","['sobble', 'drizzile', 'inteleon']",8,False,False,70,85,65,120,125,65
+skwovet,['normal'],['fighting'],"['skwovet', 'greedent']",8,False,False,70,55,55,25,35,35
+greedent,['normal'],['fighting'],"['skwovet', 'greedent']",8,False,False,120,95,95,20,55,75
+rookidee,['flying'],"['ice', 'rock', 'electric']","['rookidee', 'corvisquire', 'corviknight']",8,False,False,38,47,35,57,33,35
+corvisquire,['flying'],"['ice', 'rock', 'electric']","['rookidee', 'corvisquire', 'corviknight']",8,False,False,68,67,55,77,43,55
+corviknight,"['flying', 'steel']","['fire', 'electric', 'ice', 'ground', 'rock', 'fighting']","['rookidee', 'corvisquire', 'corviknight']",8,False,False,98,87,105,67,53,85
+blipbug,['bug'],"['fire', 'rock', 'flying']","['blipbug', 'dottler', 'orbeetle']",8,False,False,25,20,20,45,25,45
+dottler,"['bug', 'psychic']","['fire', 'dark', 'flying', 'ghost', 'bug', 'rock']","['blipbug', 'dottler', 'orbeetle']",8,False,False,50,35,80,30,50,90
+orbeetle,"['bug', 'psychic']","['fire', 'dark', 'flying', 'ghost', 'bug', 'rock']","['blipbug', 'dottler', 'orbeetle']",8,False,False,60,45,110,90,80,120
+nickit,['dark'],"['fairy', 'fighting', 'bug']","['nickit', 'thievul']",8,False,False,40,28,28,50,47,52
+thievul,['dark'],"['fairy', 'fighting', 'bug']","['nickit', 'thievul']",8,False,False,70,58,58,90,87,92
+gossifleur,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['gossifleur', 'eldegoss']",8,False,False,40,40,60,10,40,60
+eldegoss,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['gossifleur', 'eldegoss']",8,False,False,60,50,90,60,80,120
+wooloo,['normal'],['fighting'],"['wooloo', 'dubwool']",8,False,False,42,40,55,48,40,45
+dubwool,['normal'],['fighting'],"['wooloo', 'dubwool']",8,False,False,72,80,100,88,60,90
+chewtle,['water'],"['electric', 'grass']","['chewtle', 'drednaw']",8,False,False,50,64,50,44,38,38
+drednaw,"['water', 'rock']","['electric', 'water', 'grass', 'steel', 'ground', 'fighting']","['chewtle', 'drednaw']",8,False,False,90,115,90,74,48,68
+yamper,['electric'],['ground'],"['yamper', 'boltund']",8,False,False,59,45,50,26,40,50
+boltund,['electric'],['ground'],"['yamper', 'boltund']",8,False,False,69,90,60,121,90,60
+rolycoly,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['rolycoly', 'carkol', 'coalossal']",8,False,False,30,40,50,30,40,50
+carkol,"['rock', 'fire']","['water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['rolycoly', 'carkol', 'coalossal']",8,False,False,80,60,90,50,60,70
+coalossal,"['rock', 'fire']","['water', 'ground', 'steel', 'grass', 'rock', 'fighting']","['rolycoly', 'carkol', 'coalossal']",8,False,False,110,80,120,30,80,90
+applin,"['grass', 'dragon']","['fire', 'poison', 'dragon', 'ice', 'flying', 'bug', 'fairy']","['applin', 'flapple']",8,False,False,40,40,80,20,40,40
+flapple,"['grass', 'dragon']","['fire', 'poison', 'dragon', 'ice', 'flying', 'bug', 'fairy']","['applin', 'flapple']",8,False,False,70,110,80,70,95,60
+appletun,"['grass', 'dragon']","['fire', 'poison', 'dragon', 'ice', 'flying', 'bug', 'fairy']","['applin', 'flapple']",8,False,False,110,85,80,30,100,80
+silicobra,['ground'],"['ice', 'water', 'grass']","['silicobra', 'sandaconda']",8,False,False,52,57,75,46,35,50
+sandaconda,['ground'],"['ice', 'water', 'grass']","['silicobra', 'sandaconda']",8,False,False,72,107,125,71,65,70
+cramorant,"['flying', 'water']","['ice', 'rock', 'electric', 'grass']",['cramorant'],8,False,False,70,85,55,85,85,95
+arrokuda,['water'],"['electric', 'grass']","['arrokuda', 'barraskewda']",8,False,False,41,63,40,66,40,30
+barraskewda,['water'],"['electric', 'grass']","['arrokuda', 'barraskewda']",8,False,False,61,123,60,136,60,50
+toxel,"['electric', 'poison']","['psychic', 'ground']","['toxel', 'toxtricity']",8,False,False,40,38,35,40,54,35
+toxtricity-amped,"['electric', 'poison']","['psychic', 'ground']","['toxel', 'toxtricity']",8,False,False,75,98,70,75,114,70
+sizzlipede,"['fire', 'bug']","['fire', 'water', 'flying', 'ground', 'rock']","['sizzlipede', 'centiskorch']",8,False,False,50,65,45,45,50,50
+centiskorch,"['fire', 'bug']","['fire', 'water', 'flying', 'ground', 'rock']","['sizzlipede', 'centiskorch']",8,False,False,100,115,65,65,90,90
+clobbopus,['fighting'],"['fairy', 'psychic', 'flying']","['clobbopus', 'grapploct']",8,False,False,50,68,60,32,50,50
+grapploct,['fighting'],"['fairy', 'psychic', 'flying']","['clobbopus', 'grapploct']",8,False,False,80,118,90,42,70,80
+sinistea,['ghost'],"['dark', 'ghost']","['sinistea', 'polteageist']",8,False,False,40,45,45,50,74,54
+polteageist,['ghost'],"['dark', 'ghost']","['sinistea', 'polteageist']",8,False,False,60,65,65,70,134,114
+hatenna,['psychic'],"['dark', 'ghost', 'bug']","['hatenna', 'hattrem', 'hatterene']",8,False,False,42,30,45,39,56,53
+hattrem,['psychic'],"['dark', 'ghost', 'bug']","['hatenna', 'hattrem', 'hatterene']",8,False,False,57,40,65,49,86,73
+hatterene,"['psychic', 'fairy']","['poison', 'dark', 'ghost', 'steel', 'bug']","['hatenna', 'hattrem', 'hatterene']",8,False,False,57,90,95,29,136,103
+impidimp,"['dark', 'fairy']","['poison', 'steel', 'bug', 'fairy', 'fighting']","['impidimp', 'morgrem', 'grimmsnarl']",8,False,False,45,45,30,50,55,40
+morgrem,"['dark', 'fairy']","['poison', 'steel', 'bug', 'fairy', 'fighting']","['impidimp', 'morgrem', 'grimmsnarl']",8,False,False,65,60,45,70,75,55
+grimmsnarl,"['dark', 'fairy']","['poison', 'steel', 'bug', 'fairy', 'fighting']","['impidimp', 'morgrem', 'grimmsnarl']",8,False,False,95,120,65,60,95,75
+obstagoon,"['dark', 'normal']","['fairy', 'fighting', 'bug']","['zigzagoon', 'linoone', 'obstagoon']",8,False,False,93,90,101,95,60,81
+perrserker,['steel'],"['fire', 'fighting', 'ground']","['meowth', 'persian']",8,False,False,70,110,100,50,50,60
+cursola,['ghost'],"['dark', 'ghost']","['corsola', 'cursola']",8,False,False,60,95,50,30,145,130
+sirfetchd,['fighting'],"['fairy', 'psychic', 'flying']","['farfetchd', 'sirfetchd']",8,False,False,62,135,95,65,68,82
+mr-rime,"['ice', 'psychic']","['fire', 'dark', 'ghost', 'steel', 'bug', 'rock', 'fighting']","['mime-jr', 'mr-mime', 'mr-rime']",8,False,False,80,85,75,70,110,100
+runerigus,"['ground', 'ghost']","['dark', 'ice', 'water', 'ghost', 'grass']","['yamask', 'cofagrigus']",8,False,False,58,95,145,30,50,105
+milcery,['fairy'],"['poison', 'steel']","['milcery', 'alcremie']",8,False,False,45,40,40,34,50,61
+alcremie,['fairy'],"['poison', 'steel']","['milcery', 'alcremie']",8,False,False,65,60,75,64,110,121
+falinks,['fighting'],"['fairy', 'psychic', 'flying']",['falinks'],8,False,False,65,100,100,75,70,60
+pincurchin,['electric'],['ground'],['pincurchin'],8,False,False,48,101,95,15,91,85
+snom,"['ice', 'bug']","['fire', 'flying', 'steel', 'rock', 'fighting']","['snom', 'frosmoth']",8,False,False,30,25,35,20,45,30
+frosmoth,"['ice', 'bug']","['fire', 'flying', 'steel', 'rock', 'fighting']","['snom', 'frosmoth']",8,False,False,70,65,60,65,125,90
+stonjourner,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']",['stonjourner'],8,False,False,100,125,135,70,20,20
+eiscue-ice,['ice'],"['fire', 'rock', 'fighting', 'steel']",['eiscue'],8,False,False,75,80,110,50,65,90
+indeedee-male,"['psychic', 'normal']","['fighting', 'dark', 'ghost', 'bug']",['indeedee'],8,False,False,60,65,55,95,105,95
+morpeko-full-belly,"['electric', 'dark']","['fairy', 'fighting', 'ground', 'bug']",['morpeko'],8,False,False,58,95,58,97,70,58
+cufant,['steel'],"['fire', 'fighting', 'ground']","['cufant', 'copperajah']",8,False,False,72,80,49,40,40,49
+copperajah,['steel'],"['fire', 'fighting', 'ground']","['cufant', 'copperajah']",8,False,False,122,130,69,30,80,69
+dracozolt,"['electric', 'dragon']","['ice', 'fairy', 'dragon', 'ground']",['dracozolt'],8,False,False,90,100,90,75,80,70
+arctozolt,"['electric', 'ice']","['fire', 'ground', 'steel', 'rock', 'fighting']",['arctozolt'],8,False,False,90,100,90,55,90,80
+dracovish,"['water', 'dragon']","['dragon', 'electric', 'ice', 'grass', 'fairy']",['dracovish'],8,False,False,90,90,100,75,70,80
+arctovish,"['water', 'ice']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']",['arctovish'],8,False,False,90,90,100,55,80,90
+duraludon,"['steel', 'dragon']","['fire', 'dragon', 'ice', 'ground', 'fairy', 'fighting']","['duraludon', 'archaludon']",8,False,False,70,95,115,85,120,50
+dreepy,"['dragon', 'ghost']","['dragon', 'dark', 'ice', 'ghost', 'fairy']","['dreepy', 'drakloak', 'dragapult']",8,False,False,28,60,30,82,40,30
+drakloak,"['dragon', 'ghost']","['dragon', 'dark', 'ice', 'ghost', 'fairy']","['dreepy', 'drakloak', 'dragapult']",8,False,False,68,80,50,102,60,50
+dragapult,"['dragon', 'ghost']","['dragon', 'dark', 'ice', 'ghost', 'fairy']","['dreepy', 'drakloak', 'dragapult']",8,False,False,88,120,75,142,100,75
+zacian,['fairy'],"['poison', 'steel']",['zacian'],8,True,False,92,120,115,138,80,115
+zamazenta,['fighting'],"['fairy', 'psychic', 'flying']",['zamazenta'],8,True,False,92,120,115,138,80,115
+eternatus,"['poison', 'dragon']","['psychic', 'dragon', 'ice', 'ground', 'fairy']",['eternatus'],8,True,False,140,85,95,130,145,95
+kubfu,['fighting'],"['fairy', 'psychic', 'flying']","['kubfu', 'urshifu']",8,True,False,60,90,60,72,53,50
+urshifu-single-strike,"['fighting', 'dark']","['psychic', 'flying', 'bug', 'fairy', 'fighting']","['kubfu', 'urshifu']",8,True,False,100,130,100,97,63,60
+zarude,"['dark', 'grass']","['poison', 'fire', 'ice', 'flying', 'bug', 'fairy', 'fighting']",['zarude'],8,False,True,105,120,105,105,70,95
+regieleki,['electric'],['ground'],['regieleki'],8,True,False,80,100,50,200,100,50
+regidrago,['dragon'],"['ice', 'fairy', 'dragon']",['regidrago'],8,True,False,200,100,50,80,100,50
+glastrier,['ice'],"['fire', 'rock', 'fighting', 'steel']",['glastrier'],8,True,False,100,145,130,30,65,110
+spectrier,['ghost'],"['dark', 'ghost']",['spectrier'],8,True,False,100,65,60,130,145,80
+calyrex,"['psychic', 'grass']","['poison', 'fire', 'dark', 'ice', 'flying', 'ghost', 'bug']",['calyrex'],8,True,False,100,80,80,80,80,80
+wyrdeer,"['normal', 'psychic']","['dark', 'fighting', 'ghost', 'bug']","['stantler', 'wyrdeer']",8,False,False,103,105,72,65,105,75
+kleavor,"['bug', 'rock']","['fire', 'water', 'flying', 'ground', 'steel', 'grass', 'rock', 'fighting']","['scyther', 'scizor']",8,False,False,70,135,95,85,45,70
+ursaluna,"['ground', 'normal']","['ice', 'water', 'fighting', 'grass']","['teddiursa', 'ursaring', 'ursaluna']",8,False,False,130,140,105,50,45,80
+basculegion-male,"['water', 'ghost']","['electric', 'dark', 'grass', 'ghost']","['basculin', 'basculegion']",8,False,False,120,112,65,78,80,75
+sneasler,"['fighting', 'poison']","['fairy', 'psychic', 'ground', 'flying']","['sneasel', 'weavile']",8,False,False,80,130,60,120,40,80
+overqwil,"['dark', 'poison']","['psychic', 'ground', 'bug', 'fairy', 'fighting']","['qwilfish', 'overqwil']",8,False,False,85,115,95,85,65,65
+enamorus-incarnate,"['fairy', 'flying']","['poison', 'electric', 'ice', 'steel', 'rock']",['enamorus'],8,True,False,74,115,70,106,135,80
+sprigatito,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['sprigatito', 'floragato', 'meowscarada']",9,False,False,40,61,54,65,45,45
+floragato,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['sprigatito', 'floragato', 'meowscarada']",9,False,False,61,80,63,83,60,63
+meowscarada,"['grass', 'dark']","['fire', 'poison', 'ice', 'flying', 'bug', 'fairy', 'fighting']","['sprigatito', 'floragato', 'meowscarada']",9,False,False,76,110,70,123,81,70
+fuecoco,['fire'],"['water', 'rock', 'ground']","['fuecoco', 'crocalor', 'skeledirge']",9,False,False,67,45,59,36,63,40
+crocalor,['fire'],"['water', 'rock', 'ground']","['fuecoco', 'crocalor', 'skeledirge']",9,False,False,81,55,78,49,90,58
+skeledirge,"['fire', 'ghost']","['dark', 'water', 'ghost', 'ground', 'rock']","['fuecoco', 'crocalor', 'skeledirge']",9,False,False,104,75,100,66,110,75
+quaxly,['water'],"['electric', 'grass']","['quaxly', 'quaxwell', 'quaquaval']",9,False,False,55,65,45,50,50,45
+quaxwell,['water'],"['electric', 'grass']","['quaxly', 'quaxwell', 'quaquaval']",9,False,False,70,85,65,65,65,60
+quaquaval,"['water', 'fighting']","['psychic', 'electric', 'flying', 'grass', 'fairy']","['quaxly', 'quaxwell', 'quaquaval']",9,False,False,85,120,80,85,85,75
+lechonk,['normal'],['fighting'],"['lechonk', 'oinkologne']",9,False,False,54,45,40,35,35,45
+oinkologne-male,['normal'],['fighting'],"['lechonk', 'oinkologne']",9,False,False,110,100,75,65,59,80
+tarountula,['bug'],"['fire', 'rock', 'flying']","['tarountula', 'spidops']",9,False,False,35,41,45,20,29,40
+spidops,['bug'],"['fire', 'rock', 'flying']","['tarountula', 'spidops']",9,False,False,60,79,92,35,52,86
+nymble,['bug'],"['fire', 'rock', 'flying']","['nymble', 'lokix']",9,False,False,33,46,40,45,21,25
+lokix,"['bug', 'dark']","['fire', 'flying', 'bug', 'fairy', 'rock', 'fighting']","['nymble', 'lokix']",9,False,False,71,102,78,92,52,55
+pawmi,['electric'],['ground'],"['pawmi', 'pawmo', 'pawmot']",9,False,False,45,50,20,60,40,25
+pawmo,"['electric', 'fighting']","['fairy', 'psychic', 'ground', 'flying']","['pawmi', 'pawmo', 'pawmot']",9,False,False,60,75,40,85,50,40
+pawmot,"['electric', 'fighting']","['fairy', 'psychic', 'ground', 'flying']","['pawmi', 'pawmo', 'pawmot']",9,False,False,70,115,70,105,70,60
+tandemaus,['normal'],['fighting'],"['tandemaus', 'maushold']",9,False,False,50,50,45,75,40,45
+maushold-family-of-four,['normal'],['fighting'],"['tandemaus', 'maushold']",9,False,False,74,75,70,111,65,75
+fidough,['fairy'],"['poison', 'steel']","['fidough', 'dachsbun']",9,False,False,37,55,70,65,30,55
+dachsbun,['fairy'],"['poison', 'steel']","['fidough', 'dachsbun']",9,False,False,57,80,115,95,50,80
+smoliv,"['grass', 'normal']","['fire', 'poison', 'ice', 'flying', 'bug', 'fighting']","['smoliv', 'dolliv', 'arboliva']",9,False,False,41,35,45,30,58,51
+dolliv,"['grass', 'normal']","['fire', 'poison', 'ice', 'flying', 'bug', 'fighting']","['smoliv', 'dolliv', 'arboliva']",9,False,False,52,53,60,33,78,78
+arboliva,"['grass', 'normal']","['fire', 'poison', 'ice', 'flying', 'bug', 'fighting']","['smoliv', 'dolliv', 'arboliva']",9,False,False,78,69,90,39,125,109
+squawkabilly-green-plumage,"['normal', 'flying']","['ice', 'rock', 'fighting', 'electric']",['squawkabilly'],9,False,False,82,96,51,92,45,51
+nacli,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['nacli', 'naclstack', 'garganacl']",9,False,False,55,55,75,25,35,35
+naclstack,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['nacli', 'naclstack', 'garganacl']",9,False,False,60,60,100,35,35,65
+garganacl,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']","['nacli', 'naclstack', 'garganacl']",9,False,False,100,100,130,35,45,90
+charcadet,['fire'],"['water', 'rock', 'ground']","['charcadet', 'armarouge']",9,False,False,40,50,40,35,50,40
+armarouge,"['fire', 'psychic']","['dark', 'water', 'ghost', 'ground', 'bug', 'rock']","['charcadet', 'armarouge']",9,False,False,85,60,100,75,125,80
+ceruledge,"['fire', 'ghost']","['dark', 'water', 'ghost', 'ground', 'rock']","['charcadet', 'armarouge']",9,False,False,75,125,80,85,60,100
+tadbulb,['electric'],['ground'],"['tadbulb', 'bellibolt']",9,False,False,61,31,41,45,59,35
+bellibolt,['electric'],['ground'],"['tadbulb', 'bellibolt']",9,False,False,109,64,91,45,103,83
+wattrel,"['electric', 'flying']","['ice', 'rock', 'electric', 'ground']","['wattrel', 'kilowattrel']",9,False,False,40,40,35,70,55,40
+kilowattrel,"['electric', 'flying']","['ice', 'rock', 'electric', 'ground']","['wattrel', 'kilowattrel']",9,False,False,70,70,60,125,105,60
+maschiff,['dark'],"['fairy', 'fighting', 'bug']","['maschiff', 'mabosstiff']",9,False,False,60,78,60,51,40,51
+mabosstiff,['dark'],"['fairy', 'fighting', 'bug']","['maschiff', 'mabosstiff']",9,False,False,80,120,90,85,60,70
+shroodle,"['poison', 'normal']","['psychic', 'fighting', 'ground']","['shroodle', 'grafaiai']",9,False,False,40,65,35,75,40,35
+grafaiai,"['poison', 'normal']","['psychic', 'fighting', 'ground']","['shroodle', 'grafaiai']",9,False,False,63,95,65,110,80,72
+bramblin,"['grass', 'ghost']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['bramblin', 'brambleghast']",9,False,False,40,65,30,60,45,35
+brambleghast,"['grass', 'ghost']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['bramblin', 'brambleghast']",9,False,False,55,115,70,90,80,70
+toedscool,"['ground', 'grass']","['poison', 'fire', 'ice', 'water', 'flying', 'grass', 'bug']","['toedscool', 'toedscruel']",9,False,False,40,40,35,70,50,100
+toedscruel,"['ground', 'grass']","['poison', 'fire', 'ice', 'water', 'flying', 'grass', 'bug']","['toedscool', 'toedscruel']",9,False,False,80,70,65,100,80,120
+klawf,['rock'],"['water', 'ground', 'steel', 'grass', 'fighting']",['klawf'],9,False,False,70,100,115,75,35,55
+capsakid,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']","['capsakid', 'scovillain']",9,False,False,50,62,40,50,62,40
+scovillain,"['grass', 'fire']","['fire', 'poison', 'ice', 'water', 'flying', 'ground', 'bug', 'rock']","['capsakid', 'scovillain']",9,False,False,65,108,65,75,108,65
+rellor,['bug'],"['fire', 'rock', 'flying']","['rellor', 'rabsca']",9,False,False,41,50,60,30,31,58
+rabsca,"['bug', 'psychic']","['fire', 'dark', 'flying', 'ghost', 'bug', 'rock']","['rellor', 'rabsca']",9,False,False,75,50,85,45,115,100
+flittle,['psychic'],"['dark', 'ghost', 'bug']","['flittle', 'espathra']",9,False,False,30,35,30,75,55,30
+espathra,['psychic'],"['dark', 'ghost', 'bug']","['flittle', 'espathra']",9,False,False,95,60,60,105,101,60
+tinkatink,"['fairy', 'steel']","['fire', 'poison', 'ground', 'steel', 'fighting']","['tinkatink', 'tinkatuff', 'tinkaton']",9,False,False,50,45,45,58,35,64
+tinkatuff,"['fairy', 'steel']","['fire', 'poison', 'ground', 'steel', 'fighting']","['tinkatink', 'tinkatuff', 'tinkaton']",9,False,False,65,55,55,78,45,82
+tinkaton,"['fairy', 'steel']","['fire', 'poison', 'ground', 'steel', 'fighting']","['tinkatink', 'tinkatuff', 'tinkaton']",9,False,False,85,75,77,94,70,105
+wiglett,['water'],"['electric', 'grass']","['wiglett', 'wugtrio']",9,False,False,10,55,25,95,35,25
+wugtrio,['water'],"['electric', 'grass']","['wiglett', 'wugtrio']",9,False,False,35,100,50,120,50,70
+bombirdier,"['flying', 'dark']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']",['bombirdier'],9,False,False,70,103,85,82,60,85
+finizen,['water'],"['electric', 'grass']","['finizen', 'palafin']",9,False,False,70,45,40,75,45,40
+palafin-zero,['water'],"['electric', 'grass']","['finizen', 'palafin']",9,False,False,100,70,72,100,53,62
+varoom,"['steel', 'poison']","['psychic', 'fire', 'fighting', 'ground']","['varoom', 'revavroom']",9,False,False,45,70,63,47,30,45
+revavroom,"['steel', 'poison']","['psychic', 'fire', 'fighting', 'ground']","['varoom', 'revavroom']",9,False,False,80,119,90,90,54,67
+cyclizar,"['dragon', 'normal']","['ice', 'fairy', 'dragon', 'fighting']",['cyclizar'],9,False,False,70,95,65,121,85,65
+orthworm,['steel'],"['fire', 'fighting', 'ground']",['orthworm'],9,False,False,70,85,145,65,60,55
+glimmet,"['rock', 'poison']","['psychic', 'water', 'ground', 'steel', 'grass', 'fighting']","['glimmet', 'glimmora']",9,False,False,48,35,42,60,105,60
+glimmora,"['rock', 'poison']","['psychic', 'water', 'ground', 'steel', 'grass', 'fighting']","['glimmet', 'glimmora']",9,False,False,83,55,90,86,130,81
+greavard,['ghost'],"['dark', 'ghost']","['greavard', 'houndstone']",9,False,False,50,61,60,34,30,55
+houndstone,['ghost'],"['dark', 'ghost']","['greavard', 'houndstone']",9,False,False,72,101,100,68,50,97
+flamigo,"['flying', 'fighting']","['psychic', 'electric', 'ice', 'flying', 'fairy', 'rock']",['flamigo'],9,False,False,82,115,74,90,75,64
+cetoddle,['ice'],"['fire', 'rock', 'fighting', 'steel']","['cetoddle', 'cetitan']",9,False,False,108,68,45,43,30,40
+cetitan,['ice'],"['fire', 'rock', 'fighting', 'steel']","['cetoddle', 'cetitan']",9,False,False,170,113,65,73,45,55
+veluza,"['water', 'psychic']","['electric', 'dark', 'ghost', 'grass', 'bug']",['veluza'],9,False,False,90,102,73,70,78,65
+dondozo,['water'],"['electric', 'grass']",['dondozo'],9,False,False,150,100,115,35,65,65
+tatsugiri-curly,"['dragon', 'water']","['dragon', 'electric', 'ice', 'grass', 'fairy']",['tatsugiri'],9,False,False,68,50,60,82,120,95
+annihilape,"['fighting', 'ghost']","['psychic', 'dark', 'flying', 'ghost', 'fairy']","['mankey', 'primeape', 'annihilape']",9,False,False,110,115,80,90,50,90
+clodsire,"['poison', 'ground']","['psychic', 'ice', 'water', 'ground', 'grass']","['wooper', 'quagsire']",9,False,False,130,75,60,20,45,100
+farigiraf,"['normal', 'psychic']","['dark', 'fighting', 'ghost', 'bug']","['girafarig', 'farigiraf']",9,False,False,120,90,70,60,110,70
+dudunsparce-two-segment,['normal'],['fighting'],"['dunsparce', 'dudunsparce']",9,False,False,125,100,80,55,85,75
+kingambit,"['dark', 'steel']","['fire', 'ground', 'bug', 'fairy', 'fighting']","['pawniard', 'bisharp', 'kingambit']",9,False,False,100,135,120,50,60,85
+great-tusk,"['ground', 'fighting']","['psychic', 'ice', 'water', 'flying', 'grass', 'fairy']",['great-tusk'],9,False,False,115,131,131,87,53,53
+scream-tail,"['fairy', 'psychic']","['poison', 'dark', 'ghost', 'steel', 'bug']",['scream-tail'],9,False,False,115,65,99,111,65,115
+brute-bonnet,"['grass', 'dark']","['fire', 'poison', 'ice', 'flying', 'bug', 'fairy', 'fighting']",['brute-bonnet'],9,False,False,111,127,99,55,79,99
+flutter-mane,"['ghost', 'fairy']","['poison', 'dark', 'steel', 'ghost']",['flutter-mane'],9,False,False,55,55,55,135,135,135
+slither-wing,"['bug', 'fighting']","['psychic', 'fire', 'flying', 'fairy', 'rock']",['slither-wing'],9,False,False,85,135,79,81,85,105
+sandy-shocks,"['electric', 'ground']","['ice', 'water', 'ground', 'grass']",['sandy-shocks'],9,False,False,85,81,97,101,121,85
+iron-treads,"['ground', 'steel']","['fire', 'ice', 'water', 'grass', 'ground', 'fighting']",['iron-treads'],9,False,False,90,112,120,106,72,70
+iron-bundle,"['ice', 'water']","['fire', 'electric', 'grass', 'steel', 'rock', 'fighting']",['iron-bundle'],9,False,False,56,80,114,136,124,60
+iron-hands,"['fighting', 'electric']","['fairy', 'psychic', 'ground', 'flying']",['iron-hands'],9,False,False,154,140,108,50,50,68
+iron-jugulis,"['dark', 'flying']","['electric', 'ice', 'bug', 'fairy', 'rock', 'fighting']",['iron-jugulis'],9,False,False,94,80,86,108,122,80
+iron-moth,"['fire', 'poison']","['psychic', 'water', 'rock', 'ground']",['iron-moth'],9,False,False,80,70,60,110,140,110
+iron-thorns,"['rock', 'electric']","['water', 'ground', 'steel', 'grass', 'fighting']",['iron-thorns'],9,False,False,100,134,110,72,70,84
+frigibax,"['dragon', 'ice']","['fire', 'dragon', 'ice', 'steel', 'fairy', 'rock', 'fighting']","['frigibax', 'arctibax', 'baxcalibur']",9,False,False,65,75,45,55,35,45
+arctibax,"['dragon', 'ice']","['fire', 'dragon', 'ice', 'steel', 'fairy', 'rock', 'fighting']","['frigibax', 'arctibax', 'baxcalibur']",9,False,False,90,95,66,62,45,65
+baxcalibur,"['dragon', 'ice']","['fire', 'dragon', 'ice', 'steel', 'fairy', 'rock', 'fighting']","['frigibax', 'arctibax', 'baxcalibur']",9,False,False,115,145,92,87,75,86
+gimmighoul,['ghost'],"['dark', 'ghost']","['gimmighoul', 'gholdengo']",9,False,False,45,30,70,10,75,70
+gholdengo,"['steel', 'ghost']","['fire', 'dark', 'ghost', 'ground', 'fighting']","['gimmighoul', 'gholdengo']",9,False,False,87,60,95,84,133,91
+wo-chien,"['dark', 'grass']","['poison', 'fire', 'ice', 'flying', 'bug', 'fairy', 'fighting']",['wo-chien'],9,True,False,85,85,100,70,95,135
+chien-pao,"['dark', 'ice']","['fire', 'steel', 'bug', 'fairy', 'rock', 'fighting']",['chien-pao'],9,True,False,80,120,80,135,90,65
+ting-lu,"['dark', 'ground']","['ice', 'water', 'grass', 'bug', 'fairy', 'fighting']",['ting-lu'],9,True,False,155,110,125,45,55,80
+chi-yu,"['dark', 'fire']","['water', 'ground', 'bug', 'fairy', 'rock', 'fighting']",['chi-yu'],9,True,False,55,80,80,100,135,120
+roaring-moon,"['dragon', 'dark']","['dragon', 'ice', 'bug', 'fairy', 'fighting']",['roaring-moon'],9,False,False,105,139,71,119,55,101
+iron-valiant,"['fairy', 'fighting']","['psychic', 'poison', 'flying', 'steel', 'fairy']",['iron-valiant'],9,False,False,74,130,90,116,120,60
+koraidon,"['fighting', 'dragon']","['psychic', 'dragon', 'ice', 'flying', 'fairy']",['koraidon'],9,True,False,100,135,115,135,85,100
+miraidon,"['electric', 'dragon']","['ice', 'fairy', 'dragon', 'ground']",['miraidon'],9,True,False,100,85,100,135,135,115
+walking-wake,"['water', 'dragon']","['dragon', 'electric', 'ice', 'grass', 'fairy']",['walking-wake'],9,False,False,99,83,91,109,125,83
+iron-leaves,"['grass', 'psychic']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']",['iron-leaves'],9,False,False,90,130,88,104,70,108
+dipplin,"['grass', 'dragon']","['fire', 'poison', 'dragon', 'ice', 'flying', 'bug', 'fairy']","['applin', 'flapple']",9,False,False,80,80,110,40,95,80
+poltchageist,"['grass', 'ghost']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['poltchageist', 'sinistcha']",9,False,False,40,45,45,50,74,54
+sinistcha,"['grass', 'ghost']","['fire', 'poison', 'dark', 'ice', 'flying', 'ghost', 'bug']","['poltchageist', 'sinistcha']",9,False,False,71,60,106,70,121,80
+okidogi,"['poison', 'fighting']","['fairy', 'psychic', 'ground', 'flying']",['okidogi'],9,True,False,88,128,115,80,58,86
+munkidori,"['poison', 'psychic']","['psychic', 'dark', 'ghost', 'ground', 'bug']",['munkidori'],9,True,False,88,75,66,106,130,90
+fezandipiti,"['poison', 'fairy']","['poison', 'psychic', 'ground', 'steel']",['fezandipiti'],9,True,False,88,91,82,99,70,125
+ogerpon,['grass'],"['fire', 'poison', 'ice', 'flying', 'bug']",['ogerpon'],9,True,False,80,120,84,110,60,96
+archaludon,"['steel', 'dragon']","['fire', 'dragon', 'ice', 'ground', 'fairy', 'fighting']","['duraludon', 'archaludon']",9,False,False,90,105,130,85,125,65
+hydrapple,"['grass', 'dragon']","['fire', 'poison', 'dragon', 'ice', 'flying', 'bug', 'fairy']","['applin', 'flapple']",9,False,False,106,80,110,44,120,80
+gouging-fire,"['fire', 'dragon']","['dragon', 'ice', 'water', 'ground', 'fairy', 'rock']",['gouging-fire'],9,False,False,105,115,121,91,65,93
+raging-bolt,"['electric', 'dragon']","['ice', 'fairy', 'dragon', 'ground']",['raging-bolt'],9,False,False,125,73,91,75,137,89
+iron-boulder,"['rock', 'psychic']","['dark', 'water', 'ghost', 'ground', 'steel', 'grass', 'bug', 'fighting']",['iron-boulder'],9,False,False,90,120,80,124,68,108
+iron-crown,"['steel', 'psychic']","['fire', 'dark', 'ghost', 'ground', 'bug', 'fighting']",['iron-crown'],9,False,False,90,72,100,98,122,108
+terapagos,['normal'],['fighting'],['terapagos'],9,True,False,90,65,85,60,65,85
+pecharunt,"['poison', 'ghost']","['psychic', 'dark', 'ground', 'ghost']",['pecharunt'],9,False,True,88,88,160,88,88,88
